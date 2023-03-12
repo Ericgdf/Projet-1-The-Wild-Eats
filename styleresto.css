@@ -1,0 +1,127 @@
+:root{
+    --titlefont: Noto Serif;
+    --textfont : Rosario;
+    --border : 3px solid #000000;
+}
+
+body{
+    background-color: #EDF0EB;
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* haut de page  */
+.nomresto {
+    display:flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ligne{
+    border-bottom: 1px solid black;
+
+}
+/* ------------------------------------------------------------ */
+/* la liste des  différents filtres */
+
+ul>li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    
+    /* display:flex;
+    justify-content: center;  */
+    /* flex-direction: row; */
+      
+}
+li{
+    /* display:inline-flex; 
+    margin: 1.5em; */
+    display:flex;
+    justify-content: center;  
+    align-items: row; 
+}
+/* -------------------------------------------------------------- */
+/* Partie réglage photo*/
+.photoresto{
+    /* width: 10vh;
+    height: 10vh; */
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap:15px;
+    
+}
+.photoassietteaxel3{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #000000;
+    border-radius: 0px 0px 0px 200px;
+}
+
+.photoassietteaxel2{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #000000;
+    border-radius: 100px 0px;
+
+
+}
+.photoassietteaxel1{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #000000;
+    border-radius: 0px 0px 200px 0px;
+
+
+}
+
+/* ----------------------------------------- */
+/* bouton pour faire apparaitre les traductions */
+#toggle-button{
+    display: flex;
+    text-align: center;
+    background-color: #000000;
+    color: #EDF0EB;
+    border-radius: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    
+}
+#hidden-info{
+    display: none;
+}
+
+
+/* -------------------------------------- */
+/* Bas de page */
+.photocode{
+    width: 400px;
+    height: 250px;
+}
+
+.basdepage{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 2em;
+    gap: 2em;
+    
+    
+
+}
+
+@media screen and(min-width: 768px;){
+
+        
+        
+    
+    
+
+
+
+}
+    
