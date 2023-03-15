@@ -6,8 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;    
 }
 
 /* BAR NAV JO */
@@ -201,4 +200,3 @@ nav .filtre-audrey {
     text-decoration: none;
     color: black;
     font-family: 'Rosario';
-}
