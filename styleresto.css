@@ -127,8 +127,32 @@ ul >li{
 
 }
 
-@media screen and(min-width: 768px;){
+@media screen and(max-width: 768px){
+    .photoresto{
+        /* width: 10vh;
+        height: 10vh; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        align-items: center;
+        gap:5px;
+        
+    };
+    .photoassietteaxel3{
+        width: 10px;
+        height: 10px;
+        border: 3px solid #000000;
+        border-radius: 0px 0px 0px 200px;
+    };
     
+    .photoassietteaxel2{
+        width: 180px;
+        height: 180px;
+        border: 3px solid #000000;
+        border-radius: 100px 0px;
+    };
+
 
         
         
@@ -137,5 +161,5 @@ ul >li{
 
 
 
-}
-    
+
+}   

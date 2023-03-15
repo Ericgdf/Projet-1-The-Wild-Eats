@@ -1,7 +1,259 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 :root{
     --fontTitle:font-family: 'Noto Serif', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- Barre de filtre Audrey--*/
+
+nav .filtre-audrey{
+    
+    background-color:white;
+    color: white;
+    padding: 1em;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}   
+.push{
+    border-radius: 100px;
+}
+
+.push:hover{
+    background-color: black;
+    color : whitesmoke;
+}
+
+li {
+    font-family: 'Rosario';
+    font-size: 0.938em;
+    margin-right: 1em;
+    color: black;
+    background-color: whitesmoke;
+    border:solid 2px;
+    border-radius: 0px 50px 50px 0px;
+    padding: 5px;
+    padding-right: 30px;
+
+}
+
+li:hover{
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Rosario';
+>>>>>>> 3e16f935f59f3e06965fe45c826ca3447846ec25
 }
 
