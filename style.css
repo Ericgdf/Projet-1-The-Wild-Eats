@@ -7,7 +7,11 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
+}
 
+body{
+    background-color:#EDF0EB; ;
+}
 /* BAR NAV JO */
 
 .Barre_nav {
@@ -106,11 +110,11 @@ h1 {
 
 .fondGridResto{
     padding: 10px;
-    background-color: white;
+}
 
 .fondGridResto {
     padding: 15px;
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,6 +130,7 @@ h1 {
 
 .nomRestoGrille{
     margin-top: 10px;
+}
 
 .nomRestoGrille {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
