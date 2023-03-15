@@ -70,14 +70,14 @@ ul >li{
 .photoassietteaxel3{
     width: 180px;
     height: 180px;
-    border: 3px solid #000000;
+    border:var(--border);
     border-radius: 0px 0px 0px 200px;
 }
 
 .photoassietteaxel2{
     width: 180px;
     height: 180px;
-    border: 3px solid #000000;
+    border:var(--border);
     border-radius: 100px 0px;
 
 
@@ -85,7 +85,7 @@ ul >li{
 .photoassietteaxel1{
     width: 180px;
     height: 180px;
-    border: 3px solid #000000;
+    border: var(--border);
     border-radius: 0px 0px 200px 0px;
 
 
@@ -127,15 +127,89 @@ ul >li{
 
 }
 
-@media screen and(min-width: 768px;){
-    
+@media only screen and (max-width: 768px){
+    .photoassietteaxel3,
+    .photoassietteaxel2,
+    .photoassietteaxel1 {
+      width: 120px;
+      height: 120px;
+      align-items: center;
+      
+    }
+
+    .photoresto{
+        position: relative;
+        left: 1.7rem; 
+
+
 
         
+      
+    }
+ 
+    ul{
+        display: flex;
+    
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display:inline-flex;
+        text-align: center;
+         
         
+    }
+ 
+  
+    .ligne {
+        
+        
+        width: 100%;
+        display:flex;
+        position: relative;
+        right: 17%;
+    }
+
+    .nomresto {
+        display:flex;
+        justify-content: center;
+        
+        font-family:var(--titlefont)
+    }
+    .photocode{
+        width: 400px;
+        height: 250px;
+    }
     
+    .basdepage{
+        position: relative;
+        right: 2.2rem;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .trajetresto{
+        
+        width: 400px;
+        height:250px;
+    }
+    p{
+        text-align: center;
     
+    }
+    #toggle-button{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 40%;
+        
+    }
 
 
 
-}
-    
+
+}   
