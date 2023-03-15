@@ -60,7 +60,7 @@ h1 {
     margin-top: 20px;
     font-family: 'Noto Serif', serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .Nav>ul {
@@ -81,8 +81,19 @@ h1 {
     margin-top: -10px;
 }
 
+
+@media only screen and (max-width: 400px) {
+    .Nav {
+        background-color: red;
+    }
+}
+
 /* FIN BAR NAV JO */
+
+
+
 /* GRID ERIC */
+
 
 .grilleResto {
     display: grid;
@@ -147,6 +158,10 @@ h1 {
 
 
 /* FIN GRID ERIC */
+
+
+
+
 
 
 nav .filtre-audrey {
