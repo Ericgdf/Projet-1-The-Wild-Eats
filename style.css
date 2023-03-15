@@ -1,208 +1,244 @@
 
+<<<<<<<<< Temporary merge branch 1
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-:root{
-    --fontTitle:font-family: 'Noto Serif', serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+
 }
 
 
+.grilleResto{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    background-color: blue;
+    gap: 10px;
+    padding: 20px;
+}
 
+.fondGridResto{
+    padding: 15px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
+}
 
+.photoRestoGrille{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
 
+.nomRestoGrille{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+=======
 /*-- Barre de filtre Audrey--*/
 
 nav .filtre-audrey{
@@ -254,6 +290,13 @@ a {
     text-decoration: none;
     color:black;
     font-family: 'Rosario';
->>>>>>> 3e16f935f59f3e06965fe45c826ca3447846ec25
+=========
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+:root{
+    --fontTitle:font-family: 'Noto Serif', serif;
+>>>>>>>>> Temporary merge branch 2
 }
+
+
 
