@@ -87,3 +87,4 @@ function creerResto (titre, imageURL, description,prix, distance){
 for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,);
 }
+
