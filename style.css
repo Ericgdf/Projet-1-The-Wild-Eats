@@ -1,13 +1,12 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rosario:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@100&display=swap');
-
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow-x: hidden;    
-}
+    overflow-x: hidden;
 
 /* BAR NAV JO */
 
@@ -161,57 +160,58 @@ h1 {
 
 
 
-
-
-
-nav .filtre-audrey {
-
-    background-color: white;
+/*-- Barre de filtre Audrey version 2--*/
+/* base de la navigation*/
+nav .filtre-audrey{ 
+    background-color:white;
     color: white;
     padding: 1em;
 }
-
-.filtre-audrey>ul {
+/* base la liste*/
+nav > ul {
+    padding: 10px;
+    margin: 10px 20px 0 20px;
     display: flex;
     list-style: none;
-    justify-content: center;
-
+    justify-content: space-between;
+}  
+/* button*/
+.push:first-child{
+    all:unset;
+    padding-left:0.7em ;
+    padding-right: 0.7em;
+    padding-top: 0.6em;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-
-.push {
-    border-radius: 100px;
-}
-
-.push:hover {
-    background-color: black;
-    color: whitesmoke;
-}
-
-.filt-audrey>li {
-    font-family: 'Rosario';
+/* les elements filtres*/
+nav > ul >li {
+    font-family: 'Rosario', sans-serif;
     font-size: 0.938em;
-    margin-right: 1em;
     color: black;
     background-color: whitesmoke;
-    border: solid 2px;
+    border:solid 2px;
     border-radius: 0px 50px 50px 0px;
-    padding: 5px;
-    padding-right: 30px;
 
 }
-
-.filt-audrey>li:hover {
+/* les elements filtres au survol*/
+nav > ul >li:hover{
     background-color: black;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.filt-audrey>li>a:hover {
+    border-radius:0px 50px 50px 0px;
     color: whitesmoke;
-    text-align: center;
 }
-
-.filt-audrey>li>a {
+/* les elements liens au survol*/
+nav>ul>li> a:hover{
+color: whitesmoke;
+    background-color: black;  
+}
+/* les elements liens*/
+nav>ul>li>a {
+    padding: 5px;
     text-decoration: none;
-    color: black;
-    font-family: 'Rosario';
+    color:black;
+    font-family: 'Rosario', sans-serif;
+}
