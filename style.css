@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@100&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +10,82 @@
     
 }
 
+/* BAR NAV JO */
+
+.Barre_nav {
+    margin-top: 3.5rem;
+    text-decoration-color: #000000;
+
+}
+
+.Logo>img {
+    height: 100px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 2rem;
+
+}
+
+.Nav>ul>li:hover {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+.Nav>ul>li {
+    padding: 10px;
+    font-family: 'Rosario';
+    src: url("Projet-1-The-Wild-Eats/rosario/Rosario-Bold.ttf");
+    font-weight: 400px;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.Nav>ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 2rem;
+
+
+}
+
+.Separation {
+    border-top: 1px solid #000000;
+    opacity: 0.5;
+    margin: 1rem;
+    margin-top: -10px;
+}
+
+/* FIN BAR NAV JO */
 /* GRID ERIC */
-.grilleResto{
+
+.grilleResto {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: max-content;
@@ -21,6 +98,10 @@
 .fondGridResto{
     padding: 10px;
     background-color: white;
+
+.fondGridResto {
+    padding: 15px;
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +109,7 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.photoRestoGrille{
+.photoRestoGrille {
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -36,6 +117,8 @@
 
 .nomRestoGrille{
     margin-top: 10px;
+
+.nomRestoGrille {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
@@ -66,58 +149,56 @@
 
 /* FIN GRID ERIC */
 
-/*-- Barre de filtre Audrey--*/
 
-nav .filtre-audrey{
-    
-    background-color:white;
+nav .filtre-audrey {
+
+    background-color: white;
     color: white;
     padding: 1em;
 }
-ul {
+
+.filtre-audrey>ul {
     display: flex;
     list-style: none;
     justify-content: center;
 
-}   
-.push{
+}
+
+.push {
     border-radius: 100px;
 }
 
-.push:hover{
+.push:hover {
     background-color: black;
-    color : whitesmoke;
+    color: whitesmoke;
 }
 
-li {
+.filt-audrey>li {
     font-family: 'Rosario';
     font-size: 0.938em;
     margin-right: 1em;
     color: black;
     background-color: whitesmoke;
-    border:solid 2px;
+    border: solid 2px;
     border-radius: 0px 50px 50px 0px;
     padding: 5px;
     padding-right: 30px;
 
 }
 
-li:hover{
+.filt-audrey>li:hover {
     background-color: black;
     border-radius: 50px;
     text-align: center;
 }
 
-a:hover{
+.filt-audrey>li>a:hover {
     color: whitesmoke;
     text-align: center;
 }
 
-a {
+.filt-audrey>li>a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-family: 'Rosario';
 }
-
-
-
