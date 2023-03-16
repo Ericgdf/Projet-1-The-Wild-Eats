@@ -38,12 +38,9 @@
   {
     "nom": "Les Délices de Maignon",
     "image": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/298571025_582231890364835_6969807650505338995_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vWEnvGXBPRQAX8TlwxU&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBE56B6ymBWELrZnSS35Gvsy1xW4i6FDRcaCcoH8gh8VQ&oe=6418B7E3",
-    "description": "Dès l'ouverture café et viennoiseries .
-    Vous trouverez ensuite un large choix de sandwichs froids ou chauds, de burgers, de salades, d'assiettes combinées,plat du jour , desserts etc.....le tout sur place où à emporter.",
-    "descriptionAnglais": "From the opening coffee and pastries.
-    You will then find a wide choice of cold or hot sandwiches, burgers, salads, combined plates, dish of the day, desserts etc... all on site or to take away.",
-    "descriptionBasque": "Hasierako kafea eta gozogintza.
-    Ondoren, ogitarteko hotzak edo beroak, hanburgesak, entsaladak, plater konbinatuak, eguneko platerak, postreak etab... aukera zabala aurkituko duzu bertan edo eramateko.",
+    "description": "Dès l'ouverture café et viennoiseries .Vous trouverez ensuite un large choix de sandwichs froids ou chauds, de burgers, de salades, d'assiettes combinées,plat du jour , desserts etc.....le tout sur place où à emporter.",
+    "descriptionAnglais": "From the opening coffee and pastries.You will then find a wide choice of cold or hot sandwiches, burgers, salads, combined plates, dish of the day, desserts etc... all on site or to take away.",
+    "descriptionBasque": "Hasierako kafea eta gozogintza.Ondoren, ogitarteko hotzak edo beroak, hanburgesak, entsaladak, plater konbinatuak, eguneko platerak, postreak etab... aukera zabala aurkituko duzu bertan edo eramateko.",
     "prix": "€",
     "distance": 5,
     "type_nouriture": "Snack",
@@ -92,8 +89,8 @@
     "lien_page": "https://www.pepejoe.fr/",
     "photoAssiette1": "https://lh3.googleusercontent.com/p/AF1QipP0WTPKZ-33WPiCiXntc0EGJSgdSU622vUEjpuJ=s1360-w1360-h1020",
     "photoAssiette2": "https://lh3.googleusercontent.com/p/AF1QipPWFBqdXoYoNfPVFjQ3u5KAEUTr_xEqNLcc7gok=s1360-w1360-h1020",
-    "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipPFnt6Q44miNYGqEnFWzy3bUTGU3L2Z67F5ES2e=s1360-w1360-h1020",
-  }
+    "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipPFnt6Q44miNYGqEnFWzy3bUTGU3L2Z67F5ES2e=s1360-w1360-h1020"
+  },
   {
     "nom": "Woody's Diner",
     "image": "https://lh3.googleusercontent.com/p/AF1QipMZgoLYn6IXvTFvdJtZIky5wN1RHDnKiCIXqedG=s1360-w1360-h1020",
@@ -139,12 +136,9 @@
   {
     "nom": "Aux Enfants Gatés",
     "image": "https://lh3.googleusercontent.com/p/AF1QipOW1a5GQhxCcZnk5EUnwztyT8xu1j9le2yhlp_Q=s1360-w1360-h1020",
-    "description": "Notre boulangerie-pâtisserie «Aux Enfants Gâtés» est avant tout une histoire de famille, un rappel à l’enfance au travers de notre pain, nos gâteaux, nos encas raffinés et nos viennoiseries maison.
-    Tout ici est réuni pour simplement répondre à vos envies!",
-    "descriptionAnglais": "Our “Aux Enfants Gâtés” bakery and pastry shop is above all a family story, a reminder of childhood through our bread, our cakes, our refined snacks and our homemade pastries.
-    Everything here is gathered to simply meet your desires!",
-    "descriptionBasque": "Gure “Aux Enfants Gâtés” okindegia eta gozotegia, batez ere, familiaren istorio bat da, haurtzaroaren oroigarri bat gure ogiaren, gure opilen, gure pintxo finen eta etxeko opilen bidez.
-    Hemen dena bilduta dago zure nahiak asetzeko!",
+    "description": "Notre boulangerie-pâtisserie Aux Enfants Gâtés est avant tout une histoire de famille, un rappel à l’enfance au travers de notre pain, nos gâteaux, nos encas raffinés et nos viennoiseries maison.Tout ici est réuni pour simplement répondre à vos envies!",
+    "descriptionAnglais": "Our “Aux Enfants Gâtés” bakery and pastry shop is above all a family story, a reminder of childhood through our bread, our cakes, our refined snacks and our homemade pastries.Everything here is gathered to simply meet your desires!",
+    "descriptionBasque": "Gure “Aux Enfants Gâtés” okindegia eta gozotegia, batez ere, familiaren istorio bat da, haurtzaroaren oroigarri bat gure ogiaren, gure opilen, gure pintxo finen eta etxeko opilen bidez.Hemen dena bilduta dago zure nahiak asetzeko!",
     "prix": "€",
     "distance": 54,
     "type_nouriture": "Boulangerie",
