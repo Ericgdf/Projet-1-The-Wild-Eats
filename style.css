@@ -220,3 +220,141 @@ nav>ul>li>a {
     color:black;
     font-family: 'Rosario', sans-serif;
 }
+
+
+/* ----------Lunch BOX Section------------------ */
+.lunchBox{
+    background-color: #f6e299;
+}
+
+.lunchBox h3{
+  margin: 0;
+  font-size: 30px;
+  font-style: normal;
+  justify-content: flex-start;
+  padding: 30px 0 0 30px ;
+  
+
+}
+
+.lunchBoxDescription{
+    font-size: 13px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 200px;
+    padding: 100px 200px;
+    height: 90%;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+
+
+}
+
+.imageLunch{
+  height: 300px;
+  background-size: contain;
+ 
+
+}
+
+.imageLunch.Box1{
+  background-image: url("Photos/lunchbox1.png");
+}
+
+.imageLunch.Box2{
+  background-image: url("Photos/lunckbox2.png");
+}
+.imageLunch.Box3{
+  background-image: url("Photos/lunchbos3.png");
+}
+
+.recette {
+  text-decoration: none;
+  color: #080808;
+  padding: 3px;
+}
+
+.recette:hover {
+  text-decoration: underline;
+  color: rgba(55, 117, 166, 1);
+
+  
+}
+
+
+/*------------footer-----------------*/
+
+
+
+.footer {
+    background-color: #edf0eb;
+    color: #080808;
+    padding: 20px;
+}
+  
+
+footer h3{
+    margin-bottom: 15px;
+}
+
+.footer form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+
+.footer form input[type="email"] {
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+
+}
+  
+.footer form input[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.logoFace{
+    width: 30px;
+}
+  
+  
+.logoTwit{
+    width: 30px;
+}
+  
+  
+.logoInsta{
+    width: 30px;
+}
+
+.social-media{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10%
+}
+
+footer p {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.684) ;
+}
+
+
+  
