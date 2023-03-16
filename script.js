@@ -167,3 +167,15 @@ for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,);
 }
 
+// Nav barre JO
+const Nav = document.querySelector("Nav");
+console.log(Nav);
+
+
+// window.addEventListener('scroll',()=> {
+//     if (window.scrollY > 300) {
+//         navigator.style.top = 0;
+//     } else {
+//         navigator.style.top =  "-50px";
+//     }
+// })
