@@ -1,6 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rosario:wght@300&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -398,4 +397,3 @@ footer p {
     font-size: 11px;
     color: rgba(0, 0, 0, 0.684) ;
 }
-
