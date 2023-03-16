@@ -14,3 +14,6 @@ Créer une branche :
 git branch = affiche toute les branches
 git branch name_branch = créer la nouvelle branches
 git checkout name_branch = envoie sur la nouvelle branche
+
+LES BONS USAGES:
+- ne JAMAIS supprimer des lignes codes fait par un autre utilisteurs. 
