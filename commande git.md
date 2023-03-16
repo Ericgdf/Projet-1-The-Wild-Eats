@@ -1,4 +1,4 @@
-OBLIGATOIRE AU début de votre session de code :
+giOBLIGATOIRE AU début de votre session de code :
 
 git pull origin main = Recup les maj effectuer en ligne.
 =====> si fichier package.json alors toujours faire un "npm install"
