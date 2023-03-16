@@ -38,12 +38,9 @@
   {
     "nom": "Les Délices de Maignon",
     "image": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/298571025_582231890364835_6969807650505338995_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vWEnvGXBPRQAX8TlwxU&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBE56B6ymBWELrZnSS35Gvsy1xW4i6FDRcaCcoH8gh8VQ&oe=6418B7E3",
-    "description": "Dès l'ouverture café et viennoiseries .
-    Vous trouverez ensuite un large choix de sandwichs froids ou chauds, de burgers, de salades, d'assiettes combinées,plat du jour , desserts etc.....le tout sur place où à emporter.",
-    "descriptionAnglais": "From the opening coffee and pastries.
-    You will then find a wide choice of cold or hot sandwiches, burgers, salads, combined plates, dish of the day, desserts etc... all on site or to take away.",
-    "descriptionBasque": "Hasierako kafea eta gozogintza.
-    Ondoren, ogitarteko hotzak edo beroak, hanburgesak, entsaladak, plater konbinatuak, eguneko platerak, postreak etab... aukera zabala aurkituko duzu bertan edo eramateko.",
+    "description": "Dès l'ouverture café et viennoiseries .Vous trouverez ensuite un large choix de sandwichs froids ou chauds, de burgers, de salades, d'assiettes combinées,plat du jour , desserts etc.....le tout sur place où à emporter.",
+    "descriptionAnglais": "From the opening coffee and pastries.You will then find a wide choice of cold or hot sandwiches, burgers, salads, combined plates, dish of the day, desserts etc... all on site or to take away.",
+    "descriptionBasque": "Hasierako kafea eta gozogintza.Ondoren, ogitarteko hotzak edo beroak, hanburgesak, entsaladak, plater konbinatuak, eguneko platerak, postreak etab... aukera zabala aurkituko duzu bertan edo eramateko.",
     "prix": "€",
     "distance": 5,
     "type_nouriture": "Snack",
@@ -54,14 +51,14 @@
   },
   {
     "nom": "Boulangerie T'M le pain",
-    "image": "https://placekitten.com/200/287",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMNbiG7MO0NBe7jZQnxSK825mj88Ow_YPhg1hDk=s1360-w1360-h1020",
     "description": "Vitrine magnifique, grand espace pour se restaurer. Ne demande qu'a être connu. Viennoiserie maison sans aucun doute. Pain excellent (farine bio). Accueillant et chaleureux.",
     "descriptionAnglais": "Magnificent showcase, large space to eat. Just asks to be known. Homemade pastries without a doubt. Excellent bread (organic flour). Welcoming and warm.",
     "descriptionBasque": "Erakusleiho bikaina, jateko leku handia. Jakina izatea besterik ez du eskatzen. Etxeko opilak dudarik gabe. Ogi bikaina (irin ekologikoa). Abegitsua eta beroa.",
     "prix": "€",
     "distance": 38,
-    "type_nouriture": "Boulangeriehttps://www.google.com/maps/place/Boulangerie+T'M+le+Pain/@43.4575988,-1.5120359,15z/data=!4m14!1m7!3m6!1s0xd513f7b5f95ca81:0xadc8b478e7516449!2sBoulangerie+T'M+le+Pain!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16!3m5!1s0xd513f7b5f95ca81:0xadc8b478e7516449!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16",
-    "lien_page": "blabla",
+    "type_nouriture": "Boulangerie",
+    "lien_page": "https://www.google.com/maps/place/Boulangerie+T'M+le+Pain/@43.4575988,-1.5120359,15z/data=!4m14!1m7!3m6!1s0xd513f7b5f95ca81:0xadc8b478e7516449!2sBoulangerie+T'M+le+Pain!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16!3m5!1s0xd513f7b5f95ca81:0xadc8b478e7516449!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16",
     "photoAssiette1": "https://lh3.googleusercontent.com/p/AF1QipMNbiG7MO0NBe7jZQnxSK825mj88Ow_YPhg1hDk=s1360-w1360-h1020",
     "photoAssiette2": "https://lh5.googleusercontent.com/p/AF1QipMgzcFtWnjaKu9dCa8ofvhDCVUKbpCeClvaDWj-=w141-h101-n-k-no-nu",
     "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipN4JZLUDHdialVZnBZpGJGe7r1ylJ01tZdKFmcf=s1360-w1360-h1020"
@@ -92,8 +89,8 @@
     "lien_page": "https://www.pepejoe.fr/",
     "photoAssiette1": "https://lh3.googleusercontent.com/p/AF1QipP0WTPKZ-33WPiCiXntc0EGJSgdSU622vUEjpuJ=s1360-w1360-h1020",
     "photoAssiette2": "https://lh3.googleusercontent.com/p/AF1QipPWFBqdXoYoNfPVFjQ3u5KAEUTr_xEqNLcc7gok=s1360-w1360-h1020",
-    "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipPFnt6Q44miNYGqEnFWzy3bUTGU3L2Z67F5ES2e=s1360-w1360-h1020",
-  }
+    "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipPFnt6Q44miNYGqEnFWzy3bUTGU3L2Z67F5ES2e=s1360-w1360-h1020"
+  },
   {
     "nom": "Woody's Diner",
     "image": "https://lh3.googleusercontent.com/p/AF1QipMZgoLYn6IXvTFvdJtZIky5wN1RHDnKiCIXqedG=s1360-w1360-h1020",
@@ -101,7 +98,7 @@
     "descriptionAnglais": "Woody's Diner will have to be the only one to offer Burgers of such quality and originality in this type of concept. The recipes will be created, developed and finalized from this date, not forgetting the French Touch .",
     "descriptionBasque": "Woody's Diner-ek izan beharko du halako kalitate eta originaltasuneko hanburgesak eskaintzen dituen bakarra kontzeptu mota honetan.Errezetak sortu, garatu eta amaituko dira data honetatik aurrera, French Touch-a ahaztu gabe.",
     "prix": "€€",
-    "distance": 5,
+    "distance": 30,
     "type_nouriture": "Burger",
     "lien_page": "https://woodys-diner.com/",
     "photoAssiette1": "https://lh3.googleusercontent.com/p/AF1QipOCx8Td17ti9DQsCFbs2mwiFkJ7sETjiLJKtJHW=s1360-w1360-h1020",
@@ -139,12 +136,9 @@
   {
     "nom": "Aux Enfants Gatés",
     "image": "https://lh3.googleusercontent.com/p/AF1QipOW1a5GQhxCcZnk5EUnwztyT8xu1j9le2yhlp_Q=s1360-w1360-h1020",
-    "description": "Notre boulangerie-pâtisserie «Aux Enfants Gâtés» est avant tout une histoire de famille, un rappel à l’enfance au travers de notre pain, nos gâteaux, nos encas raffinés et nos viennoiseries maison.
-    Tout ici est réuni pour simplement répondre à vos envies!",
-    "descriptionAnglais": "Our “Aux Enfants Gâtés” bakery and pastry shop is above all a family story, a reminder of childhood through our bread, our cakes, our refined snacks and our homemade pastries.
-    Everything here is gathered to simply meet your desires!",
-    "descriptionBasque": "Gure “Aux Enfants Gâtés” okindegia eta gozotegia, batez ere, familiaren istorio bat da, haurtzaroaren oroigarri bat gure ogiaren, gure opilen, gure pintxo finen eta etxeko opilen bidez.
-    Hemen dena bilduta dago zure nahiak asetzeko!",
+    "description": "Notre boulangerie-pâtisserie Aux Enfants Gâtés est avant tout une histoire de famille, un rappel à l’enfance au travers de notre pain, nos gâteaux, nos encas raffinés et nos viennoiseries maison.Tout ici est réuni pour simplement répondre à vos envies!",
+    "descriptionAnglais": "Our “Aux Enfants Gâtés” bakery and pastry shop is above all a family story, a reminder of childhood through our bread, our cakes, our refined snacks and our homemade pastries.Everything here is gathered to simply meet your desires!",
+    "descriptionBasque": "Gure “Aux Enfants Gâtés” okindegia eta gozotegia, batez ere, familiaren istorio bat da, haurtzaroaren oroigarri bat gure ogiaren, gure opilen, gure pintxo finen eta etxeko opilen bidez.Hemen dena bilduta dago zure nahiak asetzeko!",
     "prix": "€",
     "distance": 54,
     "type_nouriture": "Boulangerie",
