@@ -277,6 +277,7 @@ nav>ul>li>a {
   background-color: white;
   padding: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+  border: 1px solid rgba(0, 0, 0, 0.5);
 
 
 }
@@ -303,7 +304,13 @@ nav>ul>li>a {
   text-decoration: none;
   color: #080808;
   padding: 3px;
+  display: flex;
+  align-items: baseline;
 }
+.recette.Marg{
+    margin-top: 15px;
+}
+
 
 .recette:hover {
   text-decoration: underline;
@@ -311,6 +318,7 @@ nav>ul>li>a {
 
   
 }
+
 
 
 /*------------footer-----------------*/
@@ -350,6 +358,12 @@ footer h3{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.footer form input[type="submit"]:hover{
+    background-color: rgba(55, 117, 166, 1);
+    color: #FFD447;
+
 }
 
 .logoFace{
