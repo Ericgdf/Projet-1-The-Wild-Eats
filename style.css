@@ -242,7 +242,6 @@ nav>ul>li>a {
     }
     
 }
-}
 
 
 /* ----------Lunch BOX Section------------------ */
@@ -267,7 +266,7 @@ nav>ul>li>a {
 .container {
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    gap: 200px;
+    gap: 100px;
     padding: 100px 200px;
     height: 90%;
 }
