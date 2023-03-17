@@ -232,20 +232,28 @@ nav>ul>li>a {
     /* top : 10%; */
 }
 @media screen and (max-width: 768px) {
-    .filtre-audrey>ul{ 
-        /* background-color: blue;  */
-        /* display: flex;
-        justify-content: left;
-         height: 100%; 
-        margin: 0px auto; 
-        max-width: 1900px;
-         padding-left: 0px; 
-        overflow-x: scroll; 
-        white-space: nowrap;
-        list-style-type: none; */
+    /* .filtre-audrey>ul{ 
         flex-wrap: wrap; 
         gap: 3%;
-    }
+    } */
+    .carousel {
+        display: flex;
+        list-style: none;
+        overflow-x: auto;
+        -webkit-overflow-scrolling:touch;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+      }
+      .carousel li {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel li:last-of-type {
+        margin-right: 0;
+      }
 
 }
 

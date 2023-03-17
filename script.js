@@ -241,15 +241,15 @@ console.log(Nav);
 // })
 
 // Code Audrey barre filtre
-// const carousel = document.querySelector('.carousel');
-// const items = carousel.querySelectorAll('li');
-// items.forEach(item => {
-//   item.addEventListener('click', () => {
-//     item.scrollIntoView({
-//       behavior: 'smooth',
-//       block: 'nearest',
-//       inline: 'start'
-//     });
-//   });
-// });
+const carousel = document.querySelector('.carousel');
+const items = carousel.querySelectorAll('li');
+items.forEach(item => {
+  item.addEventListener('click', () => {
+    item.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start'
+    });
+  });
+});
 
