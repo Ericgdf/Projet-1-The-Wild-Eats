@@ -197,10 +197,10 @@ function creerResto (titre, imageURL, description,prix, distance,lien){
     fondGridResto.appendChild(nomRestoGrille);
 
     // DESCRIPTION Creation de balise p + creation class descriptionRestoGrille
-    const descriptionRestoGrille = document.createElement("p");
+    /* const descriptionRestoGrille = document.createElement("p");
     descriptionRestoGrille.classList.add("descriptionRestoGrille");
     descriptionRestoGrille.innerText = description
-    fondGridResto.appendChild(descriptionRestoGrille);
+    fondGridResto.appendChild(descriptionRestoGrille); */
 
     // ZONE création d'une div pour prix et distance + ajout class sectionInfoGrille
     const sectionInfoGrille =  document.createElement("div");
