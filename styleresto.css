@@ -101,11 +101,17 @@ ul >li{
     border-radius: 50px;
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 47.5%;  
+
+
     
 }
 #hidden-info{
     display: none;
+}
+p {
+    text-align: center;
+
 }
 
 
@@ -127,7 +133,7 @@ ul >li{
 
 }
 
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .photoassietteaxel3,
     .photoassietteaxel2,
     .photoassietteaxel1 {
@@ -139,7 +145,8 @@ ul >li{
 
     .photoresto{
         position: relative;
-        left: 1.7rem; 
+        left:2.5%
+        
 
 
 
@@ -165,12 +172,13 @@ ul >li{
  
   
     .ligne {
+        align-items: center;
         
         
-        width: 100%;
+        /* width: 100%;
         display:flex;
-        position: relative;
-        right: 17%;
+        justify-content: center; */
+
     }
 
     .nomresto {

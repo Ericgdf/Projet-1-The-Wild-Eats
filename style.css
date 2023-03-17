@@ -179,21 +179,21 @@ h1 {
 
 /*-- Barre de filtre Audrey version 3--*/
 /* base de la navigation*/
-nav .filtre-audrey{ 
+/* .filtre-audrey{ 
     background-color:white;
     color: white;
     padding: 1em;
-}
+} */
 /* base la liste*/
 nav > ul {
     padding: 10px;
     margin: 10px 20px 0 20px;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }  
 /* button*/
-.push:first-child{
+/* .push:first-child{
     all:unset;
     padding-left:0.7em ;
     padding-right: 0.7em;
@@ -203,7 +203,7 @@ nav > ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 /* les elements filtres*/
 nav > ul >li {
     text-align: center;
@@ -230,29 +230,32 @@ color: whitesmoke;
 }
 /* les elements liens*/
 nav>ul>li>a {
-    padding: 5px; 
-    width: 100%;
+    /* padding: 5px;  */
+     width: 100%;
     height: 100%;
     text-decoration: none;
     color:black; 
     font-family: var(--textfont);
     /* border : 2px solid red;  */
     position: relative; 
-    top : 10%;
+    /* top : 10%; */
 }
-@media only screen and(max-width: 768px) {
-    nav>ul>li>a {
-        padding: 5px; 
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-        color:black; 
-        font-family: var(--textfont);
-        /* border : 2px solid red;  */
-        position: relative; 
-        top : 10%;
+@media screen and (max-width: 768px) {
+    .filtre-audrey>ul{ 
+        /* background-color: blue;  */
+        /* display: flex;
+        justify-content: left;
+         height: 100%; 
+        margin: 0px auto; 
+        max-width: 1900px;
+         padding-left: 0px; 
+        overflow-x: scroll; 
+        white-space: nowrap;
+        list-style-type: none; */
+        flex-wrap: wrap; 
+        gap: 3%;
     }
-    
+
 }
 
 
@@ -326,7 +329,13 @@ nav>ul>li>a {
   color: #080808;
   padding: 3px;
   font-family: var(--textfont);
+  display: flex;
+  align-items: baseline;
 }
+.recette.Marg{
+    margin-top: 15px;
+}
+
 
 .recette:hover {
   text-decoration: underline;
@@ -334,6 +343,7 @@ nav>ul>li>a {
 
   
 }
+
 
 
 /*------------footer-----------------*/
@@ -375,6 +385,12 @@ footer h3{
     cursor: pointer;
 }
 
+.footer form input[type="submit"]:hover{
+    background-color: rgba(55, 117, 166, 1);
+    color: #FFD447;
+
+}
+
 .logoFace{
     width: 30px;
 }
@@ -400,4 +416,3 @@ footer p {
     font-size: 11px;
     color: rgba(0, 0, 0, 0.684) ;
 }
-

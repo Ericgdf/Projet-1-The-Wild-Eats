@@ -226,3 +226,30 @@ for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
 }
 
+
+// Nav barre JO
+const Nav = document.querySelector("Nav");
+console.log(Nav);
+
+
+// window.addEventListener('scroll',()=> {
+//     if (window.scrollY > 300) {
+//         navigator.style.top = 0;
+//     } else {
+//         navigator.style.top =  "-50px";
+//     }
+// })
+
+// Code Audrey barre filtre
+// const carousel = document.querySelector('.carousel');
+// const items = carousel.querySelectorAll('li');
+// items.forEach(item => {
+//   item.addEventListener('click', () => {
+//     item.scrollIntoView({
+//       behavior: 'smooth',
+//       block: 'nearest',
+//       inline: 'start'
+//     });
+//   });
+// });
+
