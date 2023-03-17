@@ -5,7 +5,7 @@ const listeRestoGrille = [
       "nom": "Restaurant Chez Paqui",
       "image":
         "https://assets.afcdn.com/recipe/20161116/7224_w1024h1024c1cx1972cy3850.webp",
-      "description": "test",
+      "description": "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit.",
       "descriptionPageResto":
         "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit, Accessible en fauteuil roulant, Sert de l'alcool, Bières & Vins, Paiements électroniques, Wi-Fi gratuit, Accepte les cartes bancaires, Style familial",
       "descriptionAnglais":
@@ -24,7 +24,7 @@ const listeRestoGrille = [
         "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg"
     },
     {
-      "nom": "Restaurant Le Cass du Siècle",
+      "nom": "Le Cass du Siècle",
       "image": "https://img.cuisineaz.com/660x660/2022/07/18/i184733-shutterstock-95710738.jpeg",
       "description": "Super restaurant, très bon accueil, un menu variés, très bonne cuisine, un régal pour les papilles, merci",
       "descriptionAnglais": "Great restaurant, very warm welcome, a varied menu, very good cuisine, a treat for the taste buds, thank you",
@@ -197,10 +197,10 @@ function creerResto (titre, imageURL, description,prix, distance,lien){
     fondGridResto.appendChild(nomRestoGrille);
 
     // DESCRIPTION Creation de balise p + creation class descriptionRestoGrille
-    /* const descriptionRestoGrille = document.createElement("p");
+     const descriptionRestoGrille = document.createElement("p");
     descriptionRestoGrille.classList.add("descriptionRestoGrille");
     descriptionRestoGrille.innerText = description
-    fondGridResto.appendChild(descriptionRestoGrille); */
+    fondGridResto.appendChild(descriptionRestoGrille); 
 
     // ZONE création d'une div pour prix et distance + ajout class sectionInfoGrille
     const sectionInfoGrille =  document.createElement("div");
