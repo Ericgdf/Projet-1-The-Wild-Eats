@@ -244,7 +244,7 @@ document.addEventListener('scroll',() => {
 
 // Code Audrey barre filtre
 const carousel = document.querySelector('.carousel');
-const items = carousel.querySelectorAll('li');
+const items = carousel.querySelectorAll('button');
 items.forEach(item => {
   item.addEventListener('click', () => {
     item.scrollIntoView({
@@ -260,58 +260,60 @@ items.forEach(item => {
 
 // quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
 
-const listeResto=document.querySelector(".grilleResto")
+// const listeResto=document.querySelector(".grilleResto")
 
-listeRestoGrille.addEventListener('click',()=>{
-  function openNewPage() {
-    window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
-}})
+// listeRestoGrille.addEventListener('click',()=>{
+//   function openNewPage() {
+//     window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
+// }})
 
 
-//Carousel
 
-// Sélectionnez les éléments à faire défiler
-const boxes = document.querySelectorAll('.box');
+//Carousel---lunch box
 
-// Initialisez la position actuelle du carousel
-let currentPosition = 0;
+// // Sélectionnez les éléments à faire défiler
+// const boxes = document.querySelectorAll('.box');
 
-// Sélectionnez les boutons de navigation du carousel
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+// // Initialisez la position actuelle du carousel
+// let currentPosition = 0;
 
-// Ajoutez des écouteurs d'événements aux boutons de navigation
-prevButton.addEventListener('click', () => {
-  currentPosition--;
-  updateCarousel();
-});
+// // Sélectionnez les boutons de navigation du carousel
+// const prevButton = document.querySelector('.prev');
+// const nextButton = document.querySelector('.next');
 
-nextButton.addEventListener('click', () => {
-  currentPosition++;
-  updateCarousel();
-});
+// // Ajoutez des écouteurs d'événements aux boutons de navigation
+// prevButton.addEventListener('click', () => {
+//   currentPosition--;
+//   updateCarousel();
+// });
 
-// Mettez à jour la classe CSS des éléments du carousel en fonction de leur position
-function updateCarousel() {
-  // Réinitialisez la position du carousel si elle dépasse la limite
-  if (currentPosition < 0) {
-    currentPosition = boxes.length - 1;
-  } else if (currentPosition >= boxes.length) {
-    currentPosition = 0;
-  }
+// nextButton.addEventListener('click', () => {
+//   currentPosition++;
+//   updateCarousel();
+// });
 
-  // Mettez à jour la classe CSS des éléments du carousel
-  boxes.forEach((box, index) => {
-    if (index === currentPosition) {
-      box.classList.add('current');
-      box.classList.remove('hidden');
-    } else {
-      box.classList.remove('current');
-      box.classList.add('hidden');
-    }
-  });
-}
+// // Mettez à jour la classe CSS des éléments du carousel en fonction de leur position
+// function updateCarousel() {
+//   // Réinitialisez la position du carousel si elle dépasse la limite
+//   if (currentPosition < 0) {
+//     currentPosition = boxes.length - 1;
+//   } else if (currentPosition >= boxes.length) {
+//     currentPosition = 0;
+//   }
 
-// Mettez à jour le carousel initial
-updateCarousel();
+//   // Mettez à jour la classe CSS des éléments du carousel
+//   boxes.forEach((box, index) => {
+//     if (index === currentPosition) {
+//       box.classList.add('current');
+//       box.classList.remove('hidden');
+//     } else {
+//       box.classList.remove('current');
+//       box.classList.add('hidden');
+//     }
+//   });
+// }
+
+// // Mettez à jour le carousel initial
+// updateCarousel();
+
 
