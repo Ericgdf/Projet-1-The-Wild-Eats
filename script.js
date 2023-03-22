@@ -256,6 +256,18 @@ items.forEach(item => {
 });
 
 
+//---------------------------------------
+
+// quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
+
+const listeResto=document.querySelector(".grilleResto")
+
+listeRestoGrille.addEventListener('click',()=>{
+  function openNewPage() {
+    window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
+}})
+
+
 //Carousel
 
 // Sélectionnez les éléments à faire défiler
@@ -302,3 +314,4 @@ function updateCarousel() {
 
 // Mettez à jour le carousel initial
 updateCarousel();
+

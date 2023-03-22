@@ -4,13 +4,13 @@
 
 
 
-:root{
+:root {
     --titlefont: 'Noto Serif', serif;
-    --textfont : 'Rosario', sans-serif;
-    --border : 3px solid #000000;
+    --textfont: 'Rosario', sans-serif;
+    --border: 3px solid #000000;
 }
 
-body{
+body {
     font-family: 'Rosario', sans-serif;
 
     background-color: #EDF0EB;
@@ -21,68 +21,71 @@ body{
 /* ---------------------------------------------------------------- */
 /* haut de page  */
 .nomresto {
-    display:flex;
+    display: flex;
     justify-content: center;
-    font-family:var(--titlefont)
+    font-family: var(--titlefont)
 }
 
-.ligne{
+.ligne {
     border-bottom: 3px solid black;
     width: 50%;
     border-left: 2px solid black;
     /* padding-left: 15%; */
     margin-left: 25%;
-    
+
 
 }
+
 /* ------------------------------------------------------------ */
 /* la liste des  différents filtres */
 
-ul{
+ul {
     display: flex;
 
     justify-content: center;
 }
 
-ul >li{
+ul>li {
     list-style: none;
-    display:inline-flex;
-    
+    display: inline-flex;
+
     text-align: center;
-    align-items:  center;
-    
-    
+    align-items: center;
+
+
 }
 
 
 /* -------------------------------------------------------------- */
 /* Partie réglage photo*/
-.photoresto{
+.photoresto {
     /* width: 10vh;
     height: 10vh; */
     display: flex;
     justify-content: center;
-    
+
     align-items: center;
-    gap:15px;
-    
+    gap: 15px;
+
 }
-.photoassietteaxel3{
+
+.photoassietteaxel3 {
     width: 180px;
     height: 180px;
-    border:var(--border);
+    border: var(--border);
     border-radius: 0px 0px 0px 200px;
 }
 
-.photoassietteaxel2{
+.photoassietteaxel2 {
     width: 180px;
     height: 180px;
-    border:var(--border);
+    border: var(--border);
     border-radius: 100px 0px;
 
 
 }
-.photoassietteaxel1{
+
+.photoassietteaxel1 {
     width: 180px;
     height: 180px;
     border: var(--border);
@@ -93,7 +96,7 @@ ul >li{
 
 /* ----------------------------------------- */
 /* bouton pour faire apparaitre les traductions */
-#toggle-button{
+#toggle-button {
     display: flex;
     text-align: center;
     background-color: #000000;
@@ -101,80 +104,85 @@ ul >li{
     border-radius: 50px;
     position: relative;
     top: 50%;
-    left: 47.5%;  
+    left: 47.5%;
 
 
-    
+
 }
-#hidden-info{
+
+#hidden-info {
     display: none;
 }
-p {
+
+.paragraphe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    width: 40%;
+    margin-left: 30%;
+
+
 
 }
 
 
 /* -------------------------------------- */
 /* Bas de page */
-.photocode{
+.photocode {
     width: 400px;
     height: 250px;
 }
 
-.basdepage{
+.basdepage {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 2em;
     gap: 2em;
-    
-    
+
+
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+
     .photoassietteaxel3,
     .photoassietteaxel2,
     .photoassietteaxel1 {
-      width: 120px;
-      height: 120px;
-      align-items: center;
-      
+        width: 120px;
+        height: 120px;
+        align-items: center;
+
     }
 
-    .photoresto{
+    .photoresto {
         position: relative;
-        left:2.5%
-        
-
-
-
-        
-      
+        left: 2.5%
     }
- 
-    ul{
+
+    ul {
         display: flex;
-    
+
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    ul >li{
+
+    ul>li {
         list-style: none;
-        display:inline-flex;
+        display: inline-flex;
         text-align: center;
-         
-        
+
+
     }
- 
-  
+
+
     .ligne {
         align-items: center;
-        
-        
+
+
         /* width: 100%;
         display:flex;
         justify-content: center; */
@@ -182,42 +190,47 @@ p {
     }
 
     .nomresto {
-        display:flex;
+        display: flex;
         justify-content: center;
-        
-        font-family:var(--titlefont)
+
+        font-family: var(--titlefont)
     }
-    .photocode{
+
+    .photocode {
         width: 400px;
         height: 250px;
     }
-    
-    .basdepage{
+
+    .basdepage {
         position: relative;
         right: 2.2rem;
         display: flex;
         flex-direction: column;
-        
-        
+
+
     }
-    .trajetresto{
-        
+
+    .trajetresto {
+
         width: 400px;
-        height:250px;
+        height: 250px;
     }
-    p{
+
+    .paragraphe {
         text-align: center;
-    
+        width: 60%;
+
     }
-    #toggle-button{
+
+    #toggle-button {
         display: flex;
         align-items: center;
         position: relative;
         left: 40%;
-        
+
     }
 
 
 
 
-}   
+}
