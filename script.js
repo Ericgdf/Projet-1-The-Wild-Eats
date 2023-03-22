@@ -255,3 +255,50 @@ items.forEach(item => {
   });
 });
 
+
+//Carousel
+
+// Sélectionnez les éléments à faire défiler
+const boxes = document.querySelectorAll('.box');
+
+// Initialisez la position actuelle du carousel
+let currentPosition = 0;
+
+// Sélectionnez les boutons de navigation du carousel
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+// Ajoutez des écouteurs d'événements aux boutons de navigation
+prevButton.addEventListener('click', () => {
+  currentPosition--;
+  updateCarousel();
+});
+
+nextButton.addEventListener('click', () => {
+  currentPosition++;
+  updateCarousel();
+});
+
+// Mettez à jour la classe CSS des éléments du carousel en fonction de leur position
+function updateCarousel() {
+  // Réinitialisez la position du carousel si elle dépasse la limite
+  if (currentPosition < 0) {
+    currentPosition = boxes.length - 1;
+  } else if (currentPosition >= boxes.length) {
+    currentPosition = 0;
+  }
+
+  // Mettez à jour la classe CSS des éléments du carousel
+  boxes.forEach((box, index) => {
+    if (index === currentPosition) {
+      box.classList.add('current');
+      box.classList.remove('hidden');
+    } else {
+      box.classList.remove('current');
+      box.classList.add('hidden');
+    }
+  });
+}
+
+// Mettez à jour le carousel initial
+updateCarousel();
