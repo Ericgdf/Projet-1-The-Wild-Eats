@@ -1,25 +1,18 @@
 [
   {
     "nom": "Restaurant Chez Paqui",
-    "image":
-      "https://media-cdn.tripadvisor.com/media/photo-s/0f/c7/e7/7c/restaurant-chez-paqui.jpg",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/c7/e7/7c/restaurant-chez-paqui.jpg",
     "description": "test",
-    "descriptionPageResto":
-      "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit, Accessible en fauteuil roulant, Sert de l'alcool, Bières & Vins, Paiements électroniques, Wi-Fi gratuit, Accepte les cartes bancaires, Style familial",
-    "descriptionAnglais":
-      "Reservations, Seating, Table Service, Takeout, Outdoor Seating, Guest Parking, Free Off-Street Parking, Wheelchair Accessible, Serves Alcohol, Wine & Beer, Electronic Payments, Free Wifi, Accepts Credit Cards , Family Style",
-    "descriptionBasque":
-      "Erreserbak, Eserlekuak, Mahai-zerbitzua, Eramateko janaria, Kanpoko eserlekuak, Gonbidatuen aparkalekua, Doako kaleko aparkalekua, Gurpil-aulkirako sarbidea, Alkohola, Ardoa eta Garagardoa zerbitzatzen du, Ordainketa elektronikoak, Doako wifia, Kreditu txartelak onartzen ditu, Familia estiloa",
+    "descriptionPageResto": "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit, Accessible en fauteuil roulant, Sert de l'alcool, Bières & Vins, Paiements électroniques, Wi-Fi gratuit, Accepte les cartes bancaires, Style familial",
+    "descriptionAnglais": "Reservations, Seating, Table Service, Takeout, Outdoor Seating, Guest Parking, Free Off-Street Parking, Wheelchair Accessible, Serves Alcohol, Wine & Beer, Electronic Payments, Free Wifi, Accepts Credit Cards , Family Style",
+    "descriptionBasque": "Erreserbak, Eserlekuak, Mahai-zerbitzua, Eramateko janaria, Kanpoko eserlekuak, Gonbidatuen aparkalekua, Doako kaleko aparkalekua, Gurpil-aulkirako sarbidea, Alkohola, Ardoa eta Garagardoa zerbitzatzen du, Ordainketa elektronikoak, Doako wifia, Kreditu txartelak onartzen ditu, Familia estiloa",
     "prix": "€€",
     "distance": 5,
     "type_nouriture": "Traditionnel",
     "lien_page": "https://www.instagram.com/restaurantchezpaqui/",
-    "photoAssiette1":
-      "https://lh5.googleusercontent.com/p/AF1QipNHnRrmz-hEIqBo0xaQv2fCK8HVoDfulqGvkew3=w500-h500-k-no",
-    "photoAssiette2":
-      "https://lh5.googleusercontent.com/p/AF1QipPBAm5aOYuYLHkuIJDl-IwW7WqAMoxP76j4a4L_=w740-h420-k-no",
-    "photoAssiette3":
-      "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg"
+    "photoAssiette1": "https://lh5.googleusercontent.com/p/AF1QipNHnRrmz-hEIqBo0xaQv2fCK8HVoDfulqGvkew3=w500-h500-k-no",
+    "photoAssiette2": "https://lh5.googleusercontent.com/p/AF1QipPBAm5aOYuYLHkuIJDl-IwW7WqAMoxP76j4a4L_=w740-h420-k-no",
+    "photoAssiette3": "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg",
   },
   {
     "nom": "Restaurant Le Cass du Siècle",
@@ -161,5 +154,4 @@
     "photoAssiette2": "https://lh3.googleusercontent.com/p/AF1QipN21waAGOxKWOYs2-a_EAGyPiiYZejYB8g0Fzke=s1360-w1360-h1020",
     "photoAssiette3": "https://lh3.googleusercontent.com/p/AF1QipPE8MxqYV_nkImhsg-P_qCkp4h2vj1aggEiv2-s=s1360-w1360-h1020"
   }
-
 ]
