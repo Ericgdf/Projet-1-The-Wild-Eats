@@ -82,6 +82,19 @@ body {
     animation: show 10s linear infinite;
   }
 
+@keyframes show {
+    0% {margin-top:-280px;}
+    7% {margin-top:-212px;}
+    29% {margin-top:-212px;}
+    34% {margin-top:-140px;}
+    58% {margin-top:-140px;}
+    63% {margin-top:-72px;}
+    88% {margin-top:-72px;}
+    94% {margin-top:-4px;}
+    99.99% {margin-top:-4px;} 
+    100% {margin-top:-280px;} 
+  }
+
 
 
 /* FIN BAR NAV JO */
