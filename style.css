@@ -211,7 +211,7 @@ body {
 /*-- Barre de filtre Audrey -*/
 
 /* base la liste*/
-nav>ul {
+nav> .carousel{
     padding: 10px;
     margin: 10px 20px 0 20px;
     display: flex;
@@ -219,8 +219,25 @@ nav>ul {
     justify-content: space-around;
 }
 
+button{
+    padding: 7px;;
+}
+
 /* les elements filtres*/
-nav>ul>li {
+.Demirond {
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    font-family: var(--textfont);
+    font-size: 0.938em;
+    color: black;
+    background-color:whitesmoke;
+    border: solid 1px;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.Rond  {
     text-align: center;
     justify-content: center;
     width: 100px;
@@ -229,22 +246,21 @@ nav>ul>li {
     color: black;
     background-color: whitesmoke;
     border: solid 1px;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 50px;
 
 }
-
 /* les elements filtres au survol*/
-nav>ul>li:hover {
+.Demirond:focus{
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
 
 }
-
-/* les elements liens au survol*/
-nav>ul>li>a:hover {
+.Rond:focus{
+    background-color: black;
+    border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
-}
+
 
 /* les elements liens*/
 nav>ul>li>a {
@@ -259,9 +275,12 @@ nav>ul>li>a {
     /* top : 10%; */
 }
 
-@media screen and (max-width: 768px) {
+
+ @media screen and (max-width: 768px) {
+
 
     /* .filtre-audrey>ul{ 
+        
         flex-wrap: wrap; 
         gap: 3%;
      */
@@ -275,12 +294,13 @@ nav>ul>li>a {
         scroll-behavior: smooth;
     }
 
-    .carousel li {
+    .carousel>button {
         flex: 0 0 auto;
         scroll-snap-align: start;
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
 
@@ -306,9 +326,15 @@ nav>ul>li>a {
         /* border-radius: 100px; roundness of the scroll thumb */
         border: 3px solid orange;
 
+
+        padding: 3px;
+      
+
     }
 }
 
+
+} 
 
 /* ----------Lunch BOX Section------------------ */
 .lunchBox {
