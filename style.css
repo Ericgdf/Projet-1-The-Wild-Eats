@@ -342,6 +342,11 @@ nav>ul>li>a {
         align-items: center;
 
     }
+      
+
+
+    }
+
 
 
     .carousel li:last-of-type {
@@ -349,6 +354,10 @@ nav>ul>li>a {
         /* scrollbar-width: none; */
         /* scrollbar-color: rebeccapurple green; */
     }
+
+
+    .carousel::-webkit-scrollbar{
+        scrollbar-color: grey white ;
 
     .carousel::-webkit-scrollbar {
         scrollbar-color: grey white;
