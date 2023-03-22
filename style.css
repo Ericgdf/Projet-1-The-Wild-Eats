@@ -178,13 +178,8 @@ body {
 
 
 
-/*-- Barre de filtre Audrey version 3--*/
-/* base de la navigation*/
-/* .filtre-audrey{ 
-    background-color:white;
-    color: white;
-    padding: 1em;
-} */
+/*-- Barre de filtre Audrey -*/
+
 /* base la liste*/
 nav>ul {
     padding: 10px;
@@ -194,18 +189,6 @@ nav>ul {
     justify-content: space-around;
 }
 
-/* button*/
-/* .push:first-child{
-    all:unset;
-    padding-left:0.7em ;
-    padding-right: 0.7em;
-    padding-top: 0.6em;
-  position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-} */
 /* les elements filtres*/
 nav>ul>li {
     text-align: center;
@@ -254,7 +237,7 @@ nav>ul>li>a {
     .carousel {
         display: flex;
         list-style: none;
-        overflow-x: auto;
+        overflow-x: auto; /* barre scroll*/
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -266,14 +249,29 @@ nav>ul>li>a {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+      
 
     .carousel li:last-of-type {
         margin-right: 0;
+        /* scrollbar-width: none; */
+        /* scrollbar-color: rebeccapurple green; */
     }
-
+    .carousel::-webkit-scrollbar{
+        scrollbar-color: grey white ;
+        width: 10px;
+        height:10px;
+    }
+    
+    .carousel::-webkit-scrollbar-track{
+        background-color: #f6e299;
+    }
+    .carousel::-webkit-scrollbar-thumb{
+        background-color: blue; /* color of the scroll thumb */
+        /* border-radius: 100px; roundness of the scroll thumb */
+        border: 3px solid orange; 
+   
 }
-
+    }
 
 /* ----------Lunch BOX Section------------------ */
 .lunchBox {
