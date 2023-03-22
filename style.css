@@ -16,7 +16,6 @@
 }
 
 
-
 body {
     background-color: #EDF0EB;
     ;
@@ -27,6 +26,7 @@ body {
 .Barre_nav {
     text-decoration-color: #000000;
     height: 80vh;
+    padding-top: 30vh;
 }
 
 
@@ -35,6 +35,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
     padding: 100px;
 }
 
@@ -43,13 +44,50 @@ body {
     width: 150px
 }
 
-
 .slogan {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 
 }
+
+/* effet flip image */
+
+.imageLogo {
+    height: 130px;
+    width: 130px;
+    overflow: hidden;
+
+}
+
+.logo1 {
+    background-image: url("https://media2.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+}
+
+.logo2 {
+    background-image: url("https://media0.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=6c09b952sote28014w2e3qb0l1vshudvdcsd9yn46r170jks&rid=giphy.gif&ct=s");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+}
+
+.logo3 {
+    background-image: url("https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+}
+
+.logo4 {
+    background-image: url("https://i0.wp.com/www.wushujia.fr/wp-content/uploads/2016/03/js-logo.png?ssl=1");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+}
+
 
 /*effet flip */
 
@@ -276,7 +314,9 @@ nav>ul>li>a {
 }
 
 
+
  @media screen and (max-width: 768px) {
+
 
 
     /* .filtre-audrey>ul{ 
@@ -325,6 +365,10 @@ nav>ul>li>a {
         /* color of the scroll thumb */
         /* border-radius: 100px; roundness of the scroll thumb */
         border: 3px solid orange;
+
+
+    }
+}
 
 
         padding: 3px;
