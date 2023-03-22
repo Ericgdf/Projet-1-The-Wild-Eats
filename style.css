@@ -27,8 +27,10 @@ body {
 .Barre_nav {
     margin-top: 3.5rem;
     text-decoration-color: #000000;
-
+    background-color: #EDF0EB;
+    padding: 0;
 }
+
 
 .Logo>img {
     height: 100px;
@@ -94,11 +96,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 400px) {
-    .Nav {
-        background-color: red;
-    }
-}
+@media only screen and (max-width: 400px) {}
 
 /* FIN BAR NAV JO */
 

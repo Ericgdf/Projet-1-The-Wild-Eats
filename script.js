@@ -228,7 +228,18 @@ for( let i = 0; i < listeRestoGrille.length; i++){
 
 
 // Nav barre JO
+let Barre_nav = document.querySelector(".Barre_nav");
+let lastScrollValue = 0;
 
+document.addEventListener('scroll',() => {
+  let top = document.documentElement.scrollTop;
+  if (lastScrollValue < top) {
+    Barre_nav.classList.add("hidden");
+  } else {
+    Barre_nav.classList.remove("hidden")
+  }
+  lastScrollValue = top;
+})
 
 
 // Code Audrey barre filtre
