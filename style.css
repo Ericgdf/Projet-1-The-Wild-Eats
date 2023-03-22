@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rosario:wght@300&display=swap');
 
-:root{
+:root {
     --titlefont: 'Noto Serif', serif;
-    --textfont : 'Rosario', sans-serif;
-    --border : 3px solid #000000;
+    --textfont: 'Rosario', sans-serif;
+    --border: 3px solid #000000;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,9 +17,11 @@
 
 
 
-body{
-    background-color:#EDF0EB; ;
+body {
+    background-color: #EDF0EB;
+    ;
 }
+
 /* BAR NAV JO */
 
 .Barre_nav {
@@ -109,13 +111,13 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: max-content;
-    background-color: rgba(237, 240, 235, 1) ;
+    background-color: rgba(237, 240, 235, 1);
     gap: 30px;
     padding: 50px;
     margin-top: 20px;
 }
 
-.fondGridResto{
+.fondGridResto {
     padding: 10px;
 }
 
@@ -129,7 +131,7 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.fondGridResto a{
+.fondGridResto a {
     width: 100%;
     height: 30vh;
 }
@@ -139,7 +141,7 @@ h1 {
     background-size: cover;
 }
 
-.nomRestoGrille{
+.nomRestoGrille {
     margin-top: 5px;
 }
 
@@ -148,26 +150,26 @@ h1 {
     font-size: 20px;
 }
 
-.descriptionRestoGrille{
+.descriptionRestoGrille {
     margin-top: 5px;
     width: 100%;
     font-family: var(--textfont);
     font-size: 13px;
-   
-    
+
+
 }
 
-.sectionInfoGrille{
+.sectionInfoGrille {
     margin-top: 5px;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     font-size: 10px;
     font-family: var(--titlefont);
 }
 
-.prixRestoGrille{
+.prixRestoGrille {
     margin-right: 5px;
 }
 
@@ -186,13 +188,14 @@ h1 {
     padding: 1em;
 } */
 /* base la liste*/
-nav > ul {
+nav>ul {
     padding: 10px;
     margin: 10px 20px 0 20px;
     display: flex;
     list-style: none;
     justify-content: space-around;
-}  
+}
+
 /* button*/
 /* .push:first-child{
     all:unset;
@@ -206,7 +209,7 @@ nav > ul {
   user-select: none;
 } */
 /* les elements filtres*/
-nav > ul >li {
+nav>ul>li {
     text-align: center;
     justify-content: center;
     width: 100px;
@@ -214,42 +217,38 @@ nav > ul >li {
     font-size: 0.938em;
     color: black;
     background-color: whitesmoke;
-    border:solid 1px;
+    border: solid 1px;
     border-radius: 0px 50px 50px 0px;
 
 }
+
 /* les elements filtres au survol*/
-nav > ul >li:hover{
-  background-color: black;   
-    border-radius:0px 50px 50px 0px;
+nav>ul>li:hover {
+    background-color: black;
+    border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
-   
-} 
-/* les elements liens au survol*/
- nav>ul>li> a:hover{
-color: whitesmoke;
+
 }
+
+/* les elements liens au survol*/
+nav>ul>li>a:hover {
+    color: whitesmoke;
+}
+
 /* les elements liens*/
 nav>ul>li>a {
-    /*margin: 5px; */
-    width: 100%;
+    /* padding: 5px;  */
+     width: 100%;
     height: 100%;
     text-decoration: none;
-    color:black; 
+    color: black;
     font-family: var(--textfont);
     /* border : 2px solid red;  */
-    position: relative; 
+    position: relative;
     /* top : 10%; */
 }
-
-.buton{
-    padding: 5px;
-}
-
-.buton.Rond{
-    border-radius: 50px;
-}
 @media screen and (max-width: 768px) {
+
     /* .filtre-audrey>ul{ 
         flex-wrap: wrap; 
         gap: 3%;
@@ -258,55 +257,57 @@ nav>ul>li>a {
         display: flex;
         list-style: none;
         overflow-x: auto;
-        -webkit-overflow-scrolling:touch;
+        -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
-      }
-      .carousel li {
+    }
+
+    .carousel li {
         flex: 0 0 auto;
         scroll-snap-align: start;
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-      .carousel li:last-of-type {
+    }
+
+    .carousel li:last-of-type {
         margin-right: 0;
-      }
+    }
 
 }
 
 
 /* ----------Lunch BOX Section------------------ */
-.lunchBox{
+.lunchBox {
     background-color: #f6e299;
 }
 
-.lunchBox h3{
-  margin: 0;
-  font-size: 30px;
-  font-style: normal;
-  justify-content: flex-start;
-  font-family: var(--titlefont);
-  padding: 30px 0 0 30px ;
-  
+.lunchBox h3 {
+    margin: 0;
+    font-size: 30px;
+    font-style: normal;
+    justify-content: flex-start;
+    font-family: var(--titlefont);
+    padding: 30px 0 0 30px;
+
 
 }
 
-.lunchBoxDescription{
+.lunchBoxDescription {
     font-size: 13px;
 }
 
 .container {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     padding: 100px 200px;
     height: 80%;
-    
+
 }
 
 .box{
-  display: grid;
+  display: flex;
   flex-direction: column;
   background-color: white;
   padding: 15px;
@@ -316,46 +317,50 @@ nav>ul>li>a {
 
 }
 
-.imageLunch{
-  height: 300px;
-  background-size: contain;
- 
+.imageLunch {
+    height: 300px;
+    background-size: contain;
+
 
 }
 
-.lunchBoxDescription{
+.lunchBoxDescription {
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: var(--textfont);
     font-size: 13px;
 }
 
-.imageLunch.Box1{
-  background-image: url("Photos/lunchbox1.png");
+.imageLunch.Box1 {
+    background-image: url("Photos/lunchbox1.png");
 }
 
-.imageLunch.Box2{
-  background-image: url("Photos/lunckbox2.png");
+.imageLunch.Box2 {
+    background-image: url("Photos/lunckbox2.png");
 }
-.imageLunch.Box3{
-  background-image: url("Photos/lunchbos3.png");
+
+.imageLunch.Box3 {
+    background-image: url("Photos/lunchbos3.png");
 }
 
 .recette {
-  text-decoration: none;
-  color: #080808;
-  padding: 3px;
-  font-family: var(--textfont);
-  display: flex;
-  align-items: baseline;
+    text-decoration: none;
+    color: #080808;
+    padding: 3px;
+    font-family: var(--textfont);
+    display: flex;
+    align-items: baseline;
+}
+.recette.Marg{
+    margin-top: 15px;
 }
 
 
 .recette:hover {
-  text-decoration: underline;
-  color: rgba(55, 117, 166, 1);
+    text-decoration: underline;
+    color: rgba(55, 117, 166, 1);
 
-  
+
 }
 
 
@@ -369,9 +374,9 @@ nav>ul>li>a {
     color: #080808;
     padding: 20px;
 }
-  
 
-footer h3{
+
+footer h3 {
     margin-bottom: 15px;
     font-family: var(--titlefont);
 }
@@ -382,7 +387,7 @@ footer h3{
     align-items: center;
     justify-content: space-between;
 }
-  
+
 
 .footer form input[type="email"] {
     border: none;
@@ -391,7 +396,7 @@ footer h3{
     flex-grow: 1;
 
 }
-  
+
 .footer form input[type="submit"] {
     background-color: #fff;
     color: #333;
@@ -400,27 +405,27 @@ footer h3{
     cursor: pointer;
 }
 
-.footer form input[type="submit"]:hover{
+.footer form input[type="submit"]:hover {
     background-color: rgba(55, 117, 166, 1);
     color: #FFD447;
 
 }
 
-.logoFace{
-    width: 30px;
-}
-  
-  
-.logoTwit{
-    width: 30px;
-}
-  
-  
-.logoInsta{
+.logoFace {
     width: 30px;
 }
 
-.social-media{
+
+.logoTwit {
+    width: 30px;
+}
+
+
+.logoInsta {
+    width: 30px;
+}
+
+.social-media {
     padding: 1.5rem;
     display: flex;
     justify-content: center;
@@ -429,5 +434,5 @@ footer h3{
 
 footer p {
     font-size: 11px;
-    color: rgba(0, 0, 0, 0.684) ;
+    color: rgba(0, 0, 0, 0.684);
 }
