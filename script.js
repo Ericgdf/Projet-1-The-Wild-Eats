@@ -260,12 +260,13 @@ items.forEach(item => {
 
 // quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
 
-const listeResto=document.querySelector(".grilleResto")
+// const listeResto=document.querySelector(".grilleResto")
 
-listeRestoGrille.addEventListener('click',()=>{
-  function openNewPage() {
-    window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
-}})
+// listeRestoGrille.addEventListener('click',()=>{
+//   function openNewPage() {
+//     window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
+// }})
+
 
 
 //Carousel---lunch box
@@ -314,4 +315,5 @@ listeRestoGrille.addEventListener('click',()=>{
 
 // // Mettez à jour le carousel initial
 // updateCarousel();
+
 

@@ -40,7 +40,7 @@ body {
 
 .Logo>img {
     height: 150px;
-    width : 150px
+    width: 150px
 }
 
 
@@ -48,53 +48,83 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
+
 }
 
 /*effet flip */
 
-.full_slogan{
+.full_slogan {
     margin-top: 30px;
     font-family: var(--titlefont);
     display: flex;
     font-size: 30px;
-    
+
 }
 
-.flip{
+.flip {
     height: 40px;
     font-size: 30px;
     overflow: hidden;
 }
-.start{
+
+.start {
     margin-right: 5px;
 }
 
-.element{
-    margin-bottom:20px;
-    color:black;
-    padding:4px;
-    
+.element {
+    margin-bottom: 20px;
+    color: black;
+    padding: 4px;
+
 }
 
 
 
 .flip div:first-child {
     animation: show 10s linear infinite;
-  }
+}
 
 @keyframes show {
-    0% {margin-top:-280px;}
-    7% {margin-top:-212px;}
-    29% {margin-top:-212px;}
-    34% {margin-top:-140px;}
-    58% {margin-top:-140px;}
-    63% {margin-top:-72px;}
-    88% {margin-top:-72px;}
-    94% {margin-top:-4px;}
-    99.99% {margin-top:-4px;} 
-    100% {margin-top:-280px;} 
-  }
+    0% {
+        margin-top: -280px;
+    }
+
+    7% {
+        margin-top: -212px;
+    }
+
+    29% {
+        margin-top: -212px;
+    }
+
+    34% {
+        margin-top: -140px;
+    }
+
+    58% {
+        margin-top: -140px;
+    }
+
+    63% {
+        margin-top: -72px;
+    }
+
+    88% {
+        margin-top: -72px;
+    }
+
+    94% {
+        margin-top: -4px;
+    }
+
+    99.99% {
+        margin-top: -4px;
+    }
+
+    100% {
+        margin-top: -280px;
+    }
+}
 
 
 
@@ -231,20 +261,34 @@ button{
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
 
+
+/* les elements liens*/
+nav>ul>li>a {
+    /* padding: 5px;  */
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: var(--textfont);
+    /* border : 2px solid red;  */
+    position: relative;
+    /* top : 10%; */
 }
 
 
  @media screen and (max-width: 768px) {
 
+
     /* .filtre-audrey>ul{ 
         
         flex-wrap: wrap; 
         gap: 3%;
-    } */
+     */
     .carousel {
         display: flex;
         list-style: none;
-        overflow-x: auto; /* barre scroll*/
+        overflow-x: auto;
+        /* barre scroll*/
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -256,9 +300,39 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+
+
+    .carousel li:last-of-type {
+        margin-right: 0;
+        /* scrollbar-width: none; */
+        /* scrollbar-color: rebeccapurple green; */
+    }
+
+    .carousel::-webkit-scrollbar {
+        scrollbar-color: grey white;
+        width: 10px;
+        height: 10px;
+    }
+
+    .carousel::-webkit-scrollbar-track {
+        background-color: #f6e299;
+    }
+
+    .carousel::-webkit-scrollbar-thumb {
+        background-color: blue;
+        /* color of the scroll thumb */
+        /* border-radius: 100px; roundness of the scroll thumb */
+        border: 3px solid orange;
+
+
         padding: 3px;
       
+
     }
+}
+
 
 } 
 
@@ -291,13 +365,13 @@ button{
 
 }
 
-.box{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  padding: 15px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 
 
 }
@@ -325,7 +399,7 @@ button{
 }
 
 .imageLunch.Box3 {
-    background-image: url("Photos/lunchbos3.png"); 
+    background-image: url("Photos/lunchbos3.png");
 }
 
 .recette {
@@ -336,7 +410,8 @@ button{
     display: flex;
     align-items: baseline;
 }
-.recette.Marg{
+
+.recette.Marg {
     margin-top: 15px;
 }
 
@@ -347,7 +422,8 @@ button{
 
 
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .container {
         padding: 2rem;
         background-color: #f6e299;
