@@ -25,80 +25,77 @@ body {
 /* BAR NAV JO */
 
 .Barre_nav {
-    margin-top: 3.5rem;
     text-decoration-color: #000000;
-
+    height: 80vh;
 }
 
-.Logo>img {
-    height: 100px;
-}
 
 .Logo {
     display: flex;
     justify-content: center;
-}
-
-.Nav {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: 2rem;
-
+    padding: 100px;
 }
 
-.Nav>ul>li:hover {
-    display: block;
-    background-color: black;
-    color: white;
-
-}
-
-.Nav>ul>li {
-    padding: 10px;
-    font-family: var(--textfont);
-    src: url("Projet-1-The-Wild-Eats/rosario/Rosario-Bold.ttf");
-    font-weight: 400px;
+.Logo>img {
+    height: 150px;
+    width : 150px
 }
 
 
-
-h1 {
+.slogan {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
+}
+
+/*effet flip */
+
+.full_slogan{
+    margin-top: 30px;
     font-family: var(--titlefont);
-    font-size: 20px;
-}
-
-.Nav>ul {
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 2rem;
-
-
+    font-size: 30px;
+    
 }
 
-.Separation {
-    border-top: 1px solid #000000;
-    opacity: 0.5;
-    margin: 1rem;
-    margin-top: -10px;
+.flip{
+    height: 40px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.start{
+    margin-right: 5px;
+}
+
+.element{
+    margin-bottom:20px;
+    color:black;
+    padding:4px;
+    
 }
 
 
-@media only screen and (max-width: 400px) {
-    .Nav {
-        background-color: red;
-    }
-}
+.flip div:first-child {
+    animation: show 10s linear infinite;
+  }
+
+@keyframes show {
+    0% {margin-top:-280px;}
+    7% {margin-top:-212px;}
+    29% {margin-top:-212px;}
+    34% {margin-top:-140px;}
+    58% {margin-top:-140px;}
+    63% {margin-top:-72px;}
+    88% {margin-top:-72px;}
+    94% {margin-top:-4px;}
+    99.99% {margin-top:-4px;} 
+    100% {margin-top:-280px;} 
+  }
+
+
 
 /* FIN BAR NAV JO */
 
@@ -142,7 +139,7 @@ h1 {
 }
 
 .nomRestoGrille {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .nomRestoGrille {
@@ -238,7 +235,7 @@ nav>ul>li>a:hover {
 /* les elements liens*/
 nav>ul>li>a {
     /* padding: 5px;  */
-    width: 100%;
+     width: 100%;
     height: 100%;
     text-decoration: none;
     color: black;
@@ -247,7 +244,6 @@ nav>ul>li>a {
     position: relative;
     /* top : 10%; */
 }
-
 @media screen and (max-width: 768px) {
 
     /* .filtre-audrey>ul{ 
@@ -307,13 +303,13 @@ nav>ul>li>a {
 
 }
 
-.box {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
-    border: 1px solid rgba(0, 0, 0, 0.5);
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+  border: 1px solid rgba(0, 0, 0, 0.5);
 
 
 }
@@ -341,7 +337,7 @@ nav>ul>li>a {
 }
 
 .imageLunch.Box3 {
-    background-image: url("Photos/lunchbos3.png");
+    background-image: url("Photos/lunchbos3.png"); 
 }
 
 .recette {
@@ -352,8 +348,7 @@ nav>ul>li>a {
     display: flex;
     align-items: baseline;
 }
-
-.recette.Marg {
+.recette.Marg{
     margin-top: 15px;
 }
 
@@ -380,6 +375,7 @@ nav>ul>li>a {
 
 footer h3 {
     margin-bottom: 15px;
+    font-family: var(--titlefont);
 }
 
 .footer form {
