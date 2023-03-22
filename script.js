@@ -239,7 +239,7 @@ items.forEach(item => {
     item.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
-      inline: 'start'
+      inline: 'start',
     });
   });
 });
