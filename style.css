@@ -27,8 +27,9 @@ body {
 .Barre_nav {
     text-decoration-color: #000000;
     height: 80vh;
+    background-color: #EDF0EB;
+    padding: 0;
 }
-
 
 
 .Logo {
@@ -79,22 +80,12 @@ body {
 }
 
 
-.flip div:first-child {
-    animation: show 10s linear infinite;
-  }
+@media only screen and (max-width: 400px) {
+    .Nav {
+        background-color: red;
+    }
+}
 
-@keyframes show {
-    0% {margin-top:-280px;}
-    7% {margin-top:-212px;}
-    29% {margin-top:-212px;}
-    34% {margin-top:-140px;}
-    58% {margin-top:-140px;}
-    63% {margin-top:-72px;}
-    88% {margin-top:-72px;}
-    94% {margin-top:-4px;}
-    99.99% {margin-top:-4px;} 
-    100% {margin-top:-280px;} 
-  }
 
 
 /* FIN BAR NAV JO */
@@ -337,7 +328,7 @@ nav>ul>li>a {
 }
 
 .imageLunch.Box3 {
-    background-image: url("Photos/lunchbos3.png");
+    background-image: url("Photos/lunchbos3.png"); 
 }
 
 .recette {
