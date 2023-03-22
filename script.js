@@ -4,8 +4,8 @@ const listeRestoGrille = [
     {
       "nom": "Restaurant Chez Paqui",
       "image":
-        "https://media-cdn.tripadvisor.com/media/photo-s/0f/c7/e7/7c/restaurant-chez-paqui.jpg",
-      "description": "test",
+        "https://assets.afcdn.com/recipe/20161116/7224_w1024h1024c1cx1972cy3850.webp",
+      "description": "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit.",
       "descriptionPageResto":
         "Réservations, Places assises, Service de table, Plats à emporter, Terrasse, Stationnement pour clientèle, Parking privé gratuit, Accessible en fauteuil roulant, Sert de l'alcool, Bières & Vins, Paiements électroniques, Wi-Fi gratuit, Accepte les cartes bancaires, Style familial",
       "descriptionAnglais":
@@ -24,8 +24,8 @@ const listeRestoGrille = [
         "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg"
     },
     {
-      "nom": "Restaurant Le Cass du Siècle",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/3e/34/ac/getlstd-property-photo.jpg",
+      "nom": "Le Cass du Siècle",
+      "image": "https://img.cuisineaz.com/660x660/2022/07/18/i184733-shutterstock-95710738.jpeg",
       "description": "Super restaurant, très bon accueil, un menu variés, très bonne cuisine, un régal pour les papilles, merci",
       "descriptionAnglais": "Great restaurant, very warm welcome, a varied menu, very good cuisine, a treat for the taste buds, thank you",
       "descriptionBasque": "Jatetxe bikaina, harrera oso beroa, menu anitza, sukaldaritza oso ona, zaporeentzako gozamena, eskerrik asko",
@@ -39,7 +39,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Les Délices de Maignon",
-      "image": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/298571025_582231890364835_6969807650505338995_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vWEnvGXBPRQAX8TlwxU&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBE56B6ymBWELrZnSS35Gvsy1xW4i6FDRcaCcoH8gh8VQ&oe=6418B7E3",
+      "image": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2019/05/21152632/sandwichs-au-rosbif.jpg",
       "description": "Dès l'ouverture café et viennoiseries .Vous trouverez ensuite un large choix de sandwichs froids ou chauds, de burgers, de salades, d'assiettes combinées,plat du jour , desserts etc.....le tout sur place où à emporter.",
       "descriptionAnglais": "From the opening coffee and pastries.You will then find a wide choice of cold or hot sandwiches, burgers, salads, combined plates, dish of the day, desserts etc... all on site or to take away.",
       "descriptionBasque": "Hasierako kafea eta gozogintza.Ondoren, ogitarteko hotzak edo beroak, hanburgesak, entsaladak, plater konbinatuak, eguneko platerak, postreak etab... aukera zabala aurkituko duzu bertan edo eramateko.",
@@ -53,7 +53,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Boulangerie T'M le pain",
-      "image": "https://placekitten.com/200/287",
+      "image": "https://cache.marieclaire.fr/data/photo/w1000_ci/1jw/recettes-faciles-de-tartes-salees.jpg",
       "description": "Vitrine magnifique, grand espace pour se restaurer. Ne demande qu'a être connu. Viennoiserie maison sans aucun doute. Pain excellent (farine bio). Accueillant et chaleureux.",
       "descriptionAnglais": "Magnificent showcase, large space to eat. Just asks to be known. Homemade pastries without a doubt. Excellent bread (organic flour). Welcoming and warm.",
       "descriptionBasque": "Erakusleiho bikaina, jateko leku handia. Jakina izatea besterik ez du eskatzen. Etxeko opilak dudarik gabe. Ogi bikaina (irin ekologikoa). Abegitsua eta beroa.",
@@ -67,7 +67,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "M Vagabond",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipMJDf8dZXMyoX-8AzVjTacn9toNKPvZ2vGqAgQt=s1360-w1360-h1020",
+      "image": "https://www.gardengourmet.ch/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg",
       "description": "Mr Vagabond, c’est un groupe de restaurants et de Food-Trucks basés dans le sud-ouest de la France et spécialisés dans les burgers. Avec une forte volonté de travailler avec les producteurs locaux, chaque entité possède ses propres fournisseurs afin de vous fournir les meilleurs produits tout en favorisant au maximum les circuits courts.",
       "descriptionAnglais": "Mr Vagabond is a group of restaurants and Food-Trucks based in the southwest of France and specialized in burgers. With a strong desire to work with local producers, each entity has its own suppliers in order to provide you with the best products while promoting short circuits as much as possible.",
       "descriptionBasque": "Mr Vagabond Frantziako hego-mendebaldean kokatutako jatetxe eta Food-Trucks talde bat da eta hanburgesetan espezializatua. Bertako ekoizleekin lan egiteko gogo biziarekin, entitate bakoitzak bere hornitzaileak ditu produktu onenak eskaintzeko, zirkuitu laburrak ahalik eta gehien sustatuz.",
@@ -81,7 +81,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Pépé Joe",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipN-nIeofmFxf0EOEUAN056qd-Z1L6AErk1RIEYL=s1360-w1360-h1020",
+      "image": "https://img.cuisineaz.com/660x660/2018/02/28/i136025-pizza-legere.jpeg",
       "description": "Ce restaurant orné de journaux propose une carte de pizzas et de hamburgers à manger sur place et à emporter.",
       "descriptionAnglais": "This restaurant adorned with newspapers offers a menu of pizzas and burgers to eat in and take out.",
       "descriptionBasque": "Egunkariz apainduta dagoen jatetxe honek pizza eta hanburgesa menua eskaintzen du jan eta ateratzeko.",
@@ -95,7 +95,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Woody's Diner",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipMZgoLYn6IXvTFvdJtZIky5wN1RHDnKiCIXqedG=s1360-w1360-h1020",
+      "image": "https://pbs.twimg.com/media/EFyTw6kWoAYa3Yx?format=jpg&name=large",
       "description": "Le Woody’s Diner devra être le seul à proposer des Burgers d’une telle qualité et originalité dans ce type de concept.. Les recettes seront crées, développées et mises au point à partir de cette date en n’oubliant pas la “French Touch”.",
       "descriptionAnglais": "Woody's Diner will have to be the only one to offer Burgers of such quality and originality in this type of concept. The recipes will be created, developed and finalized from this date, not forgetting the French Touch .",
       "descriptionBasque": "Woody's Diner-ek izan beharko du halako kalitate eta originaltasuneko hanburgesak eskaintzen dituen bakarra kontzeptu mota honetan.Errezetak sortu, garatu eta amaituko dira data honetatik aurrera, French Touch-a ahaztu gabe.",
@@ -109,7 +109,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Côté Sushi",
-      "image": "https://placekitten.com/200/287",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOY1dZoLRZNd9l6FyfyNPEOzig_y36Xt6w-Nn9d=s680-w680-h510",
       "description": "Au menu : toutes les spécialités du pays du soleil levant fraîchement cuisinées, raviront vos papilles et vous feront voyager.",
       "descriptionAnglais": "On the menu: all the specialties of the land of the rising sun, freshly cooked, will delight your taste buds and make you travel.",
       "descriptionBasque": "Menuan: Eguzkiaren lurraldeko espezialitate guztiek, prestatu berriak, gustura gozatuko dute eta bidaiatu egingo zaituzte.",
@@ -123,7 +123,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Restaurant Atea",
-      "image": "https://placekitten.com/200/287",
+      "image": "https://fichier0.cirkwi.com/image/photo/poi/800x500/889794/fr/3.jpg?1672555629",
       "description": "Le restaurant ATEA propose à sa clientèle une cuisine traditionnelle recherchée, dont les plats sont élaborés à partir de produits frais du terroir. Saveur et authenticité au restaurant ATEA de l’hôtel les Genêts.",
       "descriptionAnglais": "The ATEA restaurant offers its customers refined traditional cuisine, the dishes of which are made from fresh local produce. Flavor and authenticity at the ATEA restaurant of the Hotel les Genêts.",
       "descriptionBasque": "ATEA jatetxeak sukaldaritza tradizional findua eskaintzen die bezeroei, bertako produktu freskoekin egindako platerak. Zaporea eta benetakotasuna Hotel les Genêts-eko ATEA jatetxean.",
@@ -137,7 +137,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Aux Enfants Gatés",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipOW1a5GQhxCcZnk5EUnwztyT8xu1j9le2yhlp_Q=s1360-w1360-h1020",
+      "image": "https://cdn.metro-online.com/-/media/Project/MCW/FR_Metro/Images/services-inspirations/inspirations/tendances/snacking/content/snacking-burger.jpg?h=299&iar=0&w=440&rev=90d3a706a12d4cfa85d5d75a607ec9df&hash=7F5838AEE532EA64C6FF9173229E4CB0",
       "description": "Notre boulangerie-pâtisserie Aux Enfants Gâtés est avant tout une histoire de famille, un rappel à l’enfance au travers de notre pain, nos gâteaux, nos encas raffinés et nos viennoiseries maison.Tout ici est réuni pour simplement répondre à vos envies!",
       "descriptionAnglais": "Our “Aux Enfants Gâtés” bakery and pastry shop is above all a family story, a reminder of childhood through our bread, our cakes, our refined snacks and our homemade pastries.Everything here is gathered to simply meet your desires!",
       "descriptionBasque": "Gure “Aux Enfants Gâtés” okindegia eta gozotegia, batez ere, familiaren istorio bat da, haurtzaroaren oroigarri bat gure ogiaren, gure opilen, gure pintxo finen eta etxeko opilen bidez.Hemen dena bilduta dago zure nahiak asetzeko!",
@@ -151,7 +151,7 @@ const listeRestoGrille = [
     },
     {
       "nom": "Le Quatre",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipPE8MxqYV_nkImhsg-P_qCkp4h2vj1aggEiv2-s=s1360-w1360-h1020",
+      "image": "https://www.healthyfoodcreation.fr/wp-content/uploads/2020/06/DSC_0472-scaled.jpg",
       "description": " vous trouverez des viennoiseries, des grands classiques de la pâtisserie mais aussi des versions revisitées, un large éventail de pains et un côté « snacking ». Des saveurs et des textures pour toutes les envies, à tout moment de la journée et toujours des nouveautés. ",
       "descriptionAnglais": "you will find pastries, great pastry classics but also revisited versions, a wide range of breads and a “snacking” side. Flavors and textures for all tastes, at any time of the day and always new.",
       "descriptionBasque": "opilak, gozogintza klasiko bikainak baina bertsio berrituak ere, ogi sorta zabala eta “merienda” aldea aurkituko dituzu. Gustu guztietarako zapore eta testurak, eguneko edozein ordutan eta beti berriak.",
@@ -197,10 +197,10 @@ function creerResto (titre, imageURL, description,prix, distance,lien){
     fondGridResto.appendChild(nomRestoGrille);
 
     // DESCRIPTION Creation de balise p + creation class descriptionRestoGrille
-    const descriptionRestoGrille = document.createElement("p");
+     const descriptionRestoGrille = document.createElement("p");
     descriptionRestoGrille.classList.add("descriptionRestoGrille");
     descriptionRestoGrille.innerText = description
-    fondGridResto.appendChild(descriptionRestoGrille);
+    fondGridResto.appendChild(descriptionRestoGrille); 
 
     // ZONE création d'une div pour prix et distance + ajout class sectionInfoGrille
     const sectionInfoGrille =  document.createElement("div");
@@ -228,30 +228,21 @@ for( let i = 0; i < listeRestoGrille.length; i++){
 
 
 // Nav barre JO
-const Nav = document.querySelector("Nav");
-console.log(Nav);
 
 
-// window.addEventListener('scroll',()=> {
-//     if (window.scrollY > 300) {
-//         navigator.style.top = 0;
-//     } else {
-//         navigator.style.top =  "-50px";
-//     }
-// })
 
 // Code Audrey barre filtre
-// const carousel = document.querySelector('.carousel');
-// const items = carousel.querySelectorAll('li');
-// items.forEach(item => {
-//   item.addEventListener('click', () => {
-//     item.scrollIntoView({
-//       behavior: 'smooth',
-//       block: 'nearest',
-//       inline: 'start'
-//     });
-//   });
-// });
+const carousel = document.querySelector('.carousel');
+const items = carousel.querySelectorAll('li');
+items.forEach(item => {
+  item.addEventListener('click', () => {
+    item.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start'
+    });
+  });
+});
 
 
 //Carousel
