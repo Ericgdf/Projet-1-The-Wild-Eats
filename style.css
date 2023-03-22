@@ -27,8 +27,6 @@ body {
 .Barre_nav {
     text-decoration-color: #000000;
     height: 80vh;
-    background-color: #EDF0EB;
-    padding: 0;
 }
 
 
@@ -80,11 +78,9 @@ body {
 }
 
 
-@media only screen and (max-width: 400px) {
-    .Nav {
-        background-color: red;
-    }
-}
+.flip div:first-child {
+    animation: show 10s linear infinite;
+  }
 
 
 
