@@ -26,7 +26,6 @@ body {
 .Barre_nav {
     text-decoration-color: #000000;
     height: 80vh;
-    padding-top: 30vh;
 }
 
 
@@ -298,20 +297,8 @@ button{
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
-
-
-/* les elements liens*/
-nav>ul>li>a {
-    /* padding: 5px;  */
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: black;
-    font-family: var(--textfont);
-    /* border : 2px solid red;  */
-    position: relative;
-    /* top : 10%; */
 }
+
 
 
 
@@ -349,45 +336,37 @@ nav>ul>li>a {
 
 
 
-    .carousel li:last-of-type {
-        margin-right: 0;
-        /* scrollbar-width: none; */
-        /* scrollbar-color: rebeccapurple green; */
-    }
-
-
-    .carousel::-webkit-scrollbar{
-        scrollbar-color: grey white ;
-
-    .carousel::-webkit-scrollbar {
-        scrollbar-color: grey white;
-        width: 10px;
-        height: 10px;
-    }
-
-    .carousel::-webkit-scrollbar-track {
-        background-color: #f6e299;
-    }
-
-    .carousel::-webkit-scrollbar-thumb {
-        background-color: blue;
-        /* color of the scroll thumb */
-        /* border-radius: 100px; roundness of the scroll thumb */
-        border: 3px solid orange;
-
-
-    }
+.carousel li:last-of-type {
+    margin-right: 0;
+    /* scrollbar-width: none; */
+    /* scrollbar-color: rebeccapurple green; */
 }
 
 
-        padding: 3px;
-      
+.carousel::-webkit-scrollbar{
+    scrollbar-color: grey white ;
+}
 
-    }
+.carousel::-webkit-scrollbar {
+    scrollbar-color: grey white;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background-color: #f6e299;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: blue;
+    /* color of the scroll thumb */
+    /* border-radius: 100px; roundness of the scroll thumb */
+    border: 3px solid orange;
+
+
 }
 
 
-} 
 
 /* ----------Lunch BOX Section------------------ */
 .lunchBox {
