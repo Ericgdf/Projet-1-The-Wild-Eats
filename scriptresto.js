@@ -1,5 +1,5 @@
-var button = document.getElementById("toggle-button");
-var hiddenInfo = document.getElementById("hidden-info");
+const button = document.getElementById("toggle-button");
+const hiddenInfo = document.getElementsByClassName("hidden");
 
 button.addEventListener("click", function () {
   if (hiddenInfo.style.display === "none") {
@@ -36,7 +36,9 @@ const listeRestoGrille = [
     "photoAssiette2":
       "https://lh5.googleusercontent.com/p/AF1QipPBAm5aOYuYLHkuIJDl-IwW7WqAMoxP76j4a4L_=w740-h420-k-no",
     "photoAssiette3":
-      "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg"
+      "https://menu.sluurpy.com/immagini/locali/thumbs/1981952.jpg",
+    "map":"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2895.8564069806707!2d-1.5104315345692672!3d43.46359492912816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd51151b04400001%3A0x5e8e4026b1a5e55f!2sWild%20Code%20School%2C%20Route%20de%20Pitoys%2C%20Anglet!3m2!1d43.4633575!2d-1.5114307!4m5!1s0xd513fedf11aaaab%3A0xf4686807843bd58b!2sCHEZ%20PAQUI%20-%2064600%2C%2010%20Rte%20de%20Pitoys%2C%2064600%20Anglet!3m2!1d43.4639379!2d-1.5051481!5e0!3m2!1sfr!2sfr!4v1678524673037!5m2!1sfr!2sfr" 
+    
   },
   {
     "nom": "Le Cass du Siècle",
@@ -196,12 +198,12 @@ titre.innerText=`${listeRestoGrille[i].nom}`
 nomResto.appendChild(titre)
 
 
-//---------------filtre
+// //---------------filtre
 // const lien =document.querySelector('ul')
 // const lienClick= document.createElement('a')
 // lienClick.classList.add.apply('filtreAxel')
 // lienClick.innerText=` | ${listeRestoGrille[0].lien_page}`
-// lien.appendChild(lienClick)
+// liste.appendChild(lienClick)
 
 
 
@@ -239,7 +241,7 @@ photoResto.appendChild(img3)
 let paragraphe=document.querySelector(".paragraphe")
 const description =document.createElement('p')
 description.classList.add('paragraphe')
-paragraphe.innerText=`${listeRestoGrille[i].description} `
+paragraphe.innerText=`${listeRestoGrille[1].description} `
 
 
 paragraphe.appendChild("description")
@@ -248,7 +250,7 @@ paragraphe.appendChild("description")
 
 
 
-let paragrapheTraduit= document.querySelector("#hidden-info")
+let paragrapheTraduit= document.getElementById("hidden-info")
 const descriptionTraduite=document.createElement('p')
 descriptionTraduite.classList.add("hidden-info")
 descriptionTraduite.innerText=`En Anglais:${listeRestoGrille[i].descriptionAnglais}
@@ -259,11 +261,17 @@ paragrapheTraduit.appendChild("descriptionTraduite")
 
 //------------------------map
 
+// let map = document.querySelector('.basdepage');
+// let mapImage=document.createElement('iframe');
+// mapImage.classList.add('trajetresto');
+// mapImage.innerText=`${listeRestoGrille[0].map}`
+// map.appendChild('mapImage')
+
 
 
 for( let i = 0; i < listeRestoGrille.length; i++){
   creerPage(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].descriptionAnglais,listeRestoGrille[i].descriptionBasque,);
-}
+  }
 
 
 
