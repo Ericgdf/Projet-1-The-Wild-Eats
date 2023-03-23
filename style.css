@@ -63,7 +63,6 @@ body {
     height: 130px;
     width: 130px;
     background-size: cover;
-    margin-bottom: 70px
 }
 
 .logo2 {
@@ -87,45 +86,51 @@ body {
     height: 130px;
     width: 130px;
     background-size: cover;
-    margin-bottom: 70px
+    margin-bottom: 70px;
 }
 
-.imageLogo :first-child {
-    animation: show 10s linear infinite;
-
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    animation-name: transition;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes show {
+
+
+@keyframes transition {
     0% {
-        margin-top: -800px;
+        margin-top: -900px;
     }
 
     7% {
-        margin-top: -600px;
+        margin-top: -800px;
     }
 
     29% {
-        margin-top: -600px;
+        margin-top: -800px;
     }
 
     34% {
-        margin-top: -400px;
+        margin-top: -660px;
     }
 
     58% {
-        margin-top: -400px;
+        margin-top: -660px;
     }
 
     63% {
-        margin-top: -72px;
+        margin-top: -600px;
     }
 
     88% {
-        margin-top: -72px;
+        margin-top: -600px;
     }
 
     94% {
-        margin-top: -4px;
+        margin-top: -500px;
     }
 
     99.99% {
@@ -133,7 +138,7 @@ body {
     }
 
     100% {
-        margin-top: -280px;
+        margin-top: -900px;
     }
 }
 
