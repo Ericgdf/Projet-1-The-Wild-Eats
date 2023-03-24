@@ -311,6 +311,12 @@ nav>.carousel {
     justify-content: space-around;
 }
 
+
+button{
+    padding: 7px;
+    cursor: pointer;
+    justify-content: space-around;
+
 button {
     padding: 7px;
     ;
@@ -327,7 +333,6 @@ button {
     background-color: whitesmoke;
     border: solid 1px;
     border-radius: 0px 50px 50px 0px;
-
 }
 
 .Rond {
@@ -340,7 +345,6 @@ button {
     background-color: whitesmoke;
     border: solid 1px;
     border-radius: 50px;
-
 }
 
 /* les elements filtres au survol*/
@@ -348,13 +352,29 @@ button {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
-
 }
 
 .Rond:focus {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
+
+}
+
+.Demirond:visited{
+    background-color: rgb(105, 103, 103);
+    border-radius: 0px 50px 50px 0px;
+    color: whitesmoke;
+}
+.Rond:visited{
+    background-color:rgb(105, 103, 103);
+    border-radius: 0px 50px 50px 0px;
+    color: whitesmoke;
+}
+
+
+ @media screen and (max-width: 768px) {
+=======
 }
 
 
@@ -369,6 +389,7 @@ button {
         flex-wrap: wrap; 
         gap: 3%;
      */
+
     .carousel {
         display: flex;
         list-style: none;
@@ -386,7 +407,24 @@ button {
         justify-content: center;
         align-items: center;
 
+        /* padding: 3px;  */
+
+
     }
+    .carousel::-webkit-scrollbar{
+        scrollbar-color:  rgb(147, 180, 170) ;
+        height: 3px;
+    }
+
+    .carousel::-webkit-scrollbar-track{
+        background-color: rgb(192, 226, 197);
+    }
+    .carousel::-webkit-scrollbar-thumb{
+        background-color: rgb(127, 148, 139); 
+    } } 
+
+
+
 
 
 
