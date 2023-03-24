@@ -342,6 +342,7 @@ items.forEach(item => {
 
 //---------------------------------------
 
+
 /* // quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
 
 // const listeResto=document.querySelector(".grilleResto")
@@ -406,3 +407,8 @@ listeRestoGrille.addEventListener('click',()=>{
 
 // // Mettez à jour le carousel initial
 // updateCarousel(); 
+
+
+
+
+
