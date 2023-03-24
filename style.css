@@ -37,10 +37,10 @@ body {
     padding: 100px;
 }
 
-.Logo>img {
+/* .Logo>img {
     height: 150px;
     width: 150px
-}
+} */
 
 .slogan {
     display: flex;
