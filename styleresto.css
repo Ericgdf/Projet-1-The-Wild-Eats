@@ -103,6 +103,7 @@ ul>li {
 /* ----------------------------------------- */
 /* bouton pour faire apparaitre les traductions */
 #toggle-button {
+    margin-top: 0.9rem;
     display: flex;
     text-align: center;
     background-color: #000000;
@@ -136,15 +137,15 @@ ul>li {
 
 /* -------------------------------------- */
 /* Bas de page */
-.photocode {
+/* .photocode {
     width: 400px;
     height: 250px;
-}
+} */
 
 .basdepage {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding: 2em;
     gap: 2em;
 
