@@ -1,13 +1,3 @@
-const button = document.getElementById("toggle-button");
-const hiddenInfo = document.getElementsByClassName("hidden");
-
-button.addEventListener("click", function () {
-  if (hiddenInfo.style.display === "none") {
-    hiddenInfo.style.display = "block";
-  } else {
-    hiddenInfo.style.display = "none";
-  }
-});
 
 
 
@@ -184,7 +174,7 @@ const listeRestoGrille = [
 ]
 
 
-function creerPage(nom,image,description,descriptionAnglais,descriptionBasque,prix,distance,type_nouriture,lien_page,photoAssiette1,photoAssiette2,photoAssiette3) {
+// function creerPage(nom,image,description,descriptionAnglais,descriptionBasque,prix,distance,type_nouriture,lien_page,photoAssiette1,photoAssiette2,photoAssiette3) {
   
 
 const listeResto=document.querySelector(".grilleResto")
@@ -194,7 +184,7 @@ const listeResto=document.querySelector(".grilleResto")
 const nomResto= document.querySelector('.nomresto');
 const titre=document.createElement('h1')
 titre.classList.add("nomresto")
-titre.innerText=`${listeRestoGrille[i].nom}`
+titre.innerText=`${listeRestoGrille[5].nom}`
 nomResto.appendChild(titre)
 
 
@@ -210,7 +200,7 @@ nomResto.appendChild(titre)
 const filtre=document.querySelector('ul')
 const liste=document.createElement("li")
 liste.classList.add('filtreAxel')
-liste.innerText=` | ${listeRestoGrille[i].prix} | ${listeRestoGrille[i].type_nouriture} | ${listeRestoGrille[i].distance} min de marche |`
+liste.innerText=` | ${listeRestoGrille[5].prix} | ${listeRestoGrille[5].type_nouriture} | ${listeRestoGrille[5].distance} min de marche |`
 filtre.appendChild(liste)
 
 
@@ -241,7 +231,7 @@ photoResto.appendChild(img3)
 let paragraphe=document.querySelector(".paragraphe")
 const description =document.createElement('p')
 description.classList.add('paragraphe')
-paragraphe.innerText=`${listeRestoGrille[1].description} `
+paragraphe.innerText=`${listeRestoGrille[i].description} `
 
 
 paragraphe.appendChild("description")
@@ -257,7 +247,7 @@ descriptionTraduite.innerText=`En Anglais:${listeRestoGrille[i].descriptionAngla
 En Basque: ${listeRestoGrille[i].descriptionBasque}`
 
 paragrapheTraduit.appendChild("descriptionTraduite")  
-}
+// }
 
 //------------------------map
 
@@ -269,12 +259,22 @@ paragrapheTraduit.appendChild("descriptionTraduite")
 
 
 
-for( let i = 0; i < listeRestoGrille.length; i++){
-  creerPage(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].descriptionAnglais,listeRestoGrille[i].descriptionBasque,);
-  }
+// for( let i = 0; i < listeRestoGrille.length; i++){
+//   creerPage(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].descriptionAnglais,listeRestoGrille[i].descriptionBasque,);
+//   }
 
 
 
 
-
+  const button = document.getElementById("toggle-button");
+  const hiddenInfo = document.getElementsByClassName("hidden");
+  
+  button.addEventListener("click", function () {
+    if (hiddenInfo.style.display === "none") {
+      hiddenInfo.style.display = "block";
+    } else {
+      hiddenInfo.style.display = "none";
+    }
+  });
+  
 
