@@ -228,57 +228,88 @@ for( let i = 0; i < listeRestoGrille.length; i++){
 
 
 // fonction filtre associé bouton
-
+let situation = true
 // bouton traditionnel
 let filtreTraditionnel=  listeRestoGrille.filter(element => element.type_nouriture ==="Traditionnel");
 const traditionel = document.querySelector(".buton.Rond.traditionel")
 traditionel.addEventListener("click",()=>{
-  grilleGénéral.innerHTML = ""
-  for( let i = 0; i < listeRestoGrille.length; i++){
-    creerResto(filtreTraditionnel[i].nom, filtreTraditionnel[i].image, filtreTraditionnel[i].description,filtreTraditionnel[i].prix,filtreTraditionnel[i].distance,filtreTraditionnel[i].lien_page);
-  }
+  if (situation) {
+    grilleGénéral.innerHTML = ""
+    for( let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(filtreTraditionnel[i].nom, filtreTraditionnel[i].image, filtreTraditionnel[i].description,filtreTraditionnel[i].prix,filtreTraditionnel[i].distance,filtreTraditionnel[i].lien_page);
+      situation = false;
+  }} else {
+    grilleGénéral.innerHTML = "";
+    for(let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
+    situation = true;
+  }}
 });
 
 // bouton boulangerie
 let filtreBoulangerie=  listeRestoGrille.filter(element => element.type_nouriture ==="Boulangerie");
 const boulangerie = document.querySelector(".buton.Rond.boulangerie");
 boulangerie.addEventListener("click",()=>{
-  grilleGénéral.innerHTML = ""
-  for( let i = 0; i < listeRestoGrille.length; i++){
-    creerResto(filtreBoulangerie[i].nom, filtreBoulangerie[i].image, filtreBoulangerie[i].description,filtreBoulangerie[i].prix,filtreBoulangerie[i].distance,filtreBoulangerie[i].lien_page);
-  }
-});
+  if (situation) {
+    grilleGénéral.innerHTML = ""
+    for( let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(filtreBoulangerie[i].nom, filtreBoulangerie[i].image, filtreBoulangerie[i].description,filtreBoulangerie[i].prix,filtreBoulangerie[i].distance,filtreBoulangerie[i].lien_page);
+      situation = false;
+  }} else {
+    grilleGénéral.innerHTML = "";
+    for(let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
+    situation = true;
+  }}});
 
 // bouton asiatique
 let filtreAsiatique=  listeRestoGrille.filter(element => element.type_nouriture ==="Asiatique");
 const asiatique = document.querySelector(".buton.Demirond.asiatique");
 asiatique.addEventListener("click",()=>{
-  grilleGénéral.innerHTML = ""
-  for( let i = 0; i < listeRestoGrille.length; i++){
-    creerResto(filtreAsiatique[i].nom, filtreAsiatique[i].image, filtreAsiatique[i].description,filtreAsiatique[i].prix,filtreAsiatique[i].distance,filtreAsiatique[i].lien_page);
-  }
-});
+  if (situation){
+    grilleGénéral.innerHTML = ""
+    for( let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(filtreAsiatique[i].nom, filtreAsiatique[i].image, filtreAsiatique[i].description,filtreAsiatique[i].prix,filtreAsiatique[i].distance,filtreAsiatique[i].lien_page);
+      situation = false;
+  }} else {
+    grilleGénéral.innerHTML = "";
+    for(let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
+    situation = true;
+}}});
 
 // bouton burger
 let filtreBurger=  listeRestoGrille.filter(element => element.type_nouriture ==="Burger");
 const burger = document.querySelector(".buton.Rond.burger");
 burger.addEventListener("click",()=>{
-  grilleGénéral.innerHTML = ""
+  if(situation){
+    grilleGénéral.innerHTML = ""
   for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(filtreBurger[i].nom, filtreBurger[i].image, filtreBurger[i].description,filtreBurger[i].prix,filtreBurger[i].distance,filtreBurger[i].lien_page);
-  }
-});
+    situation = false;
+  }} else {
+    grilleGénéral.innerHTML = "";
+    for(let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
+    situation = true;
+}}});
+
 
 // bouton snack
 let filtreSnack=  listeRestoGrille.filter(element => element.type_nouriture ==="Snack");
 const snack = document.querySelector(".buton.Demirond.snack");
 snack.addEventListener("click",()=>{
-  grilleGénéral.innerHTML = ""
-  for( let i = 0; i < listeRestoGrille.length; i++){
-    creerResto(filtreSnack[i].nom, filtreSnack[i].image, filtreSnack[i].description,filtreSnack[i].prix,filtreSnack[i].distance,filtreSnack[i].lien_page);
-  }
-});
-
+  if(situation){
+    grilleGénéral.innerHTML = ""
+    for( let i = 0; i < listeRestoGrille.length; i++){
+      creerResto(filtreSnack[i].nom, filtreSnack[i].image, filtreSnack[i].description,filtreSnack[i].prix,filtreSnack[i].distance,filtreSnack[i].lien_page);
+      situation = false;
+    }} else {
+      grilleGénéral.innerHTML = "";
+      for(let i = 0; i < listeRestoGrille.length; i++){
+        creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page);
+      situation = true;
+}}});
 
 // Nav barre JO
 let Barre_nav = document.querySelector(".Barre_nav");
@@ -310,6 +341,73 @@ items.forEach(item => {
 
 
 //---------------------------------------
+
+
+/* // quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
+
+// const listeResto=document.querySelector(".grilleResto")
+
+
+listeRestoGrille.addEventListener('click',()=>{
+  function openNewPage() {
+    window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
+}})
+*/
+
+// listeRestoGrille.addEventListener('click',()=>{
+//   function openNewPage() {
+//     window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
+// }})
+
+
+
+//Carousel---lunch box
+
+// // Sélectionnez les éléments à faire défiler
+// const boxes = document.querySelectorAll('.box');
+
+// // Initialisez la position actuelle du carousel
+// let currentPosition = 0;
+
+// // Sélectionnez les boutons de navigation du carousel
+// const prevButton = document.querySelector('.prev');
+// const nextButton = document.querySelector('.next');
+
+// // Ajoutez des écouteurs d'événements aux boutons de navigation
+// prevButton.addEventListener('click', () => {
+//   currentPosition--;
+//   updateCarousel();
+// });
+
+// nextButton.addEventListener('click', () => {
+//   currentPosition++;
+//   updateCarousel();
+// });
+
+// // Mettez à jour la classe CSS des éléments du carousel en fonction de leur position
+// function updateCarousel() {
+//   // Réinitialisez la position du carousel si elle dépasse la limite
+//   if (currentPosition < 0) {
+//     currentPosition = boxes.length - 1;
+//   } else if (currentPosition >= boxes.length) {
+//     currentPosition = 0;
+//   }
+
+//   // Mettez à jour la classe CSS des éléments du carousel
+//   boxes.forEach((box, index) => {
+//     if (index === currentPosition) {
+//       box.classList.add('current');
+//       box.classList.remove('hidden');
+//     } else {
+//       box.classList.remove('current');
+//       box.classList.add('hidden');
+//     }
+//   });
+// }
+
+// // Mettez à jour le carousel initial
+// updateCarousel(); 
+
 
 
 
