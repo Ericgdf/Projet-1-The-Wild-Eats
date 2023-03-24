@@ -25,7 +25,7 @@ body {
 
 .Barre_nav {
     text-decoration-color: #000000;
-    height: 80vh;
+    height: 30vh;
 }
 
 
@@ -34,13 +34,10 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 80px;
 }
 
-.Logo>img {
-    height: 150px;
-    width: 150px
-}
+
 
 .slogan {
     display: flex;
@@ -60,86 +57,87 @@ body {
 
 .logo1 {
     background-image: url("https://media2.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif");
-    height: 130px;
-    width: 130px;
-    background-size: cover;
-}
-
-.logo2 {
-    background-image: url("https://media0.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=6c09b952sote28014w2e3qb0l1vshudvdcsd9yn46r170jks&rid=giphy.gif&ct=s");
-    height: 130px;
-    width: 130px;
-    background-size: cover;
-    margin-bottom: 70px
-}
-
-.logo3 {
-    background-image: url("https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png");
-    height: 130px;
-    width: 130px;
-    background-size: cover;
-    margin-bottom: 70px
-}
-
-.logo4 {
-    background-image: url("https://i0.wp.com/www.wushujia.fr/wp-content/uploads/2016/03/js-logo.png?ssl=1");
+    /* PYTHON*/
     height: 130px;
     width: 130px;
     background-size: cover;
     margin-bottom: 70px;
 }
 
-.logo1,
-.logo2,
-.logo3,
-.logo4 {
-    animation-name: transition;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+.logo2 {
+    background-image: url("https://media0.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=6c09b952sote28014w2e3qb0l1vshudvdcsd9yn46r170jks&rid=giphy.gif&ct=s");
+    /*HTML*/
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-top: -70px;
+    margin-bottom: 2px;
+}
 
+.logo3 {
+    background-image: url("https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png");
+    /*CSS*/
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-bottom: 45px;
+}
+
+.logo4 {
+    background-image: url("https://i0.wp.com/www.wushujia.fr/wp-content/uploads/2016/03/js-logo.png?ssl=1");
+    /*JS*/
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-top: -45px;
+}
+
+
+.imageLogo div:first-child {
+    animation: show 10s linear infinite;
 }
 
 
 
-@keyframes transition {
+@keyframes show {
     0% {
-        margin-top: -900px;
+        margin-top: -520px;
     }
 
     7% {
-        margin-top: -800px;
+        margin-top: -390px;
     }
 
     29% {
-        margin-top: -800px;
+        margin-top: -390px;
     }
 
     34% {
-        margin-top: -660px;
+        margin-top: -260px;
     }
 
     58% {
-        margin-top: -660px;
+        margin-top: -260px;
     }
 
     63% {
-        margin-top: -600px;
+        margin-top: -130px;
     }
 
     88% {
-        margin-top: -600px;
+        margin-top: -130px;
     }
 
     94% {
-        margin-top: -500px;
+        margin-top: 0px;
     }
 
     99.99% {
-        margin-top: -4px;
+        margin-top: 0px;
     }
 
     100% {
-        margin-top: -900px;
+        margin-top: -520px;
     }
 }
 
@@ -168,16 +166,16 @@ body {
     margin-bottom: 20px;
     color: black;
     padding: 4px;
-
+    text-align: center;
 }
 
 
 
 .flip div:first-child {
-    animation: show 10s linear infinite;
+    animation: transition 10s linear infinite;
 }
 
-@keyframes show {
+@keyframes transition {
     0% {
         margin-top: -280px;
     }
@@ -313,7 +311,7 @@ nav>.carousel {
 }
 
 
-button{
+button {
     padding: 7px;
     cursor: pointer;
     justify-content: space-around;
@@ -358,7 +356,7 @@ button{
     color: whitesmoke;
 }
 
-/* responsive*/
+
 
 @media screen and (max-width: 768px) {
     .carousel {
@@ -377,17 +375,26 @@ button{
         justify-content: center;
         align-items: center;
     }
-    .carousel::-webkit-scrollbar{
-        scrollbar-color:  rgb(147, 180, 170) ;
+
+    .carousel::-webkit-scrollbar {
+        scrollbar-color: rgb(147, 180, 170);
         height: 3px;
     }
 
-    .carousel::-webkit-scrollbar-track{
+    .carousel::-webkit-scrollbar-track {
         background-color: rgb(192, 226, 197);
     }
+
     carousel::-webkit-scrollbar-thumb{
         background-color: rgb(127, 148, 139); 
     } } 
+
+
+    .carousel::-webkit-scrollbar-thumb {
+        background-color: rgb(127, 148, 139);
+    }
+}
+
 
 
 /* ----------Lunch BOX Section------------------ */
