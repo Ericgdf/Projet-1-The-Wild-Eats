@@ -342,9 +342,10 @@ button {
     border-radius: 50px;
 }
 
-/* les elements filtres au survol*/
-.Demirond:focus {
-    background-color: black;
+/* les elements filtres au clic*/
+
+.Demirond:focus{
+    background-color: rgb(0, 0, 0);
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
 }
@@ -353,37 +354,16 @@ button {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
-
 }
 
-.Demirond:visited {
-    background-color: rgb(105, 103, 103);
-    border-radius: 0px 50px 50px 0px;
-    color: whitesmoke;
-}
 
-.Rond:visited {
-    background-color: rgb(105, 103, 103);
-    border-radius: 0px 50px 50px 0px;
-    color: whitesmoke;
-}
 
 @media screen and (max-width: 768px) {
-
-
-
-    /* .filtre-audrey>ul{ 
-        
-        flex-wrap: wrap; 
-        gap: 3%;
-     */
-
     .carousel {
         display: flex;
         list-style: none;
         overflow-x: auto;
-        /* barre scroll*/
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: touch;/* barre scroll*/
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
     }
@@ -394,10 +374,6 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        /* padding: 3px;  */
-
-
     }
 
     .carousel::-webkit-scrollbar {
@@ -409,48 +385,14 @@ button {
         background-color: rgb(192, 226, 197);
     }
 
+    carousel::-webkit-scrollbar-thumb{
+        background-color: rgb(127, 148, 139); 
+    } } 
+
+
     .carousel::-webkit-scrollbar-thumb {
         background-color: rgb(127, 148, 139);
     }
-}
-
-
-
-
-
-
-
-
-
-
-.carousel li:last-of-type {
-    margin-right: 0;
-    /* scrollbar-width: none; */
-    /* scrollbar-color: rebeccapurple green; */
-}
-
-
-.carousel::-webkit-scrollbar {
-    scrollbar-color: grey white;
-}
-
-.carousel::-webkit-scrollbar {
-    scrollbar-color: grey white;
-    width: 10px;
-    height: 10px;
-}
-
-.carousel::-webkit-scrollbar-track {
-    background-color: #f6e299;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-    background-color: blue;
-    /* color of the scroll thumb */
-    /* border-radius: 100px; roundness of the scroll thumb */
-    border: 3px solid orange;
-
-
 }
 
 
