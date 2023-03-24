@@ -317,10 +317,6 @@ button{
     padding: 7px;
     cursor: pointer;
     justify-content: space-around;
-
-button {
-    padding: 7px;
-    ;
 }
 
 /* les elements filtres*/
@@ -373,14 +369,6 @@ button {
     color: whitesmoke;
 }
 
-
- @media screen and (max-width: 768px) {
-=======
-}
-
-
-
-
 @media screen and (max-width: 768px) {
 
 
@@ -429,7 +417,7 @@ button {
 
 
 
-}
+
 
 
 
