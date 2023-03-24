@@ -1,3 +1,13 @@
+const button = document.getElementById("toggle-button");
+const hiddenInfo = document.getElementsByClassName("hidden");
+
+button.addEventListener("click", function () {
+  if (hiddenInfo.style.display === "none") {
+    hiddenInfo.style.display = "block";
+  } else {
+    hiddenInfo.style.display = "none";
+  }
+});
 
 
 // recupère l'id du clique 
@@ -185,18 +195,18 @@ const listeRestoGrille = [
 ]
 
 
-// function creerPage(nom,image,description,descriptionAnglais,descriptionBasque,prix,distance,type_nouriture,lien_page,photoAssiette1,photoAssiette2,photoAssiette3) {
+function creerPage(nom,image,description,descriptionAnglais,descriptionBasque,prix,distance,type_nouriture,lien_page,photoAssiette1,photoAssiette2,photoAssiette3) {
   
 
   const listeResto=document.querySelector(".grilleResto")
 
 
-// //--------------Nom resto
-const nomResto= document.querySelector('.nomresto');
-const titre=document.createElement('h1')
-titre.classList.add("nomresto")
-titre.innerText=`${listeRestoGrille[i].nom}`
-nomResto.appendChild(titre)
+  // //--------------Nom resto
+  const nomResto= document.querySelector('.nomresto');
+  const titre=document.createElement('h1')
+  titre.classList.add("nomresto");
+  titre.innerText=`${nom}`;
+  nomResto.appendChild(titre);
 
 
   // //---------------filtre
@@ -208,11 +218,11 @@ nomResto.appendChild(titre)
 
 
 
-const filtre=document.querySelector('ul')
-const liste=document.createElement("li")
-liste.classList.add('filtreAxel')
-liste.innerText=` | ${listeRestoGrille[i].prix} | ${listeRestoGrille[i].type_nouriture} | ${listeRestoGrille[i].distance} min de marche |`
-filtre.appendChild(liste)
+  const filtre=document.querySelector('ul');
+  const liste=document.createElement("li");
+  liste.classList.add('filtreAxel');
+  liste.innerText=` | ${listeRestoGrille[i].prix} | ${listeRestoGrille[i].type_nouriture} | ${listeRestoGrille[i].distance} min de marche |`
+  filtre.appendChild(liste);
 
 
 
@@ -237,12 +247,12 @@ filtre.appendChild(liste)
 
 
 
- 
-//----------------------paragraphe
-let paragraphe=document.querySelector(".paragraphe")
-const description =document.createElement('p')
-description.classList.add('paragraphe')
-paragraphe.innerText=`${listeRestoGrille[1].description} `
+  
+  //----------------------paragraphe
+  let paragraphe=document.querySelector(".paragraphe");
+  const descriptionGeneral =document.createElement('p');
+  descriptionGeneral.classList.add('paragraphe');
+  paragraphe.innerText=`${listeRestoGrille[i].description} `
 
 
   paragraphe.appendChild("description")
@@ -257,8 +267,8 @@ paragraphe.innerText=`${listeRestoGrille[1].description} `
   descriptionTraduite.innerText=`En Anglais:${listeRestoGrille[i].descriptionAnglais}
   En Basque: ${listeRestoGrille[i].descriptionBasque}`
 
-paragrapheTraduit.appendChild("descriptionTraduite")  
-// }
+  paragrapheTraduit.appendChild("descriptionTraduite")  
+}
 
   //------------------------map
 
@@ -270,9 +280,7 @@ paragrapheTraduit.appendChild("descriptionTraduite")
 
 
 
-for( let i = 0; i < listeRestoGrille.length; i++){
-  creerPage(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].descriptionAnglais,listeRestoGrille[i].descriptionBasque,);
-  }
+creerPage(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].    prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].descriptionAnglais,listeRestoGrille[i].descriptionBasque,);
 
 
 

@@ -236,19 +236,23 @@ function creerResto (titre, imageURL, description,prix, distance,lien, indexRest
 
 }
 
+function callid(){
+  const call = document.querySelectorAll(".boutonResto")
+  for (let i = 0; i < call.length; i++) {
+    console.log(call[i].id)
+    call[i].addEventListener("click",()=>{
+      localStorage.setItem("index", call[i].id)
+
+  })}}
+
 for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
 }
+callid();
 
 
 // création page de manière automatique :
-const call = document.querySelectorAll(".boutonResto")
-for (let i = 0; i < call.length; i++) {
-  call[i].addEventListener("click",()=>{
-    console.log(call[i].id);
-    localStorage.setItem("index", call[i].id)
 
-})}
 
 
 // fonction filtre associé bouton
@@ -258,14 +262,17 @@ let filtreTraditionnel=  listeRestoGrille.filter(element => element.type_nouritu
 const traditionel = document.querySelector(".buton.Rond.traditionel")
 traditionel.addEventListener("click",()=>{
   if (situation) {
-    grilleGénéral.innerHTML = ""
+    grilleGénéral.innerHTML = "";
+   
     for( let i = 0; i < filtreTraditionnel.length; i++){
       creerResto(filtreTraditionnel[i].nom,filtreTraditionnel[i].image,filtreTraditionnel[i].description,filtreTraditionnel[i].prix,filtreTraditionnel[i].distance,filtreTraditionnel[i].lien_page,filtreTraditionnel[i].index);
+      callid();
     situation = false;
   }} else {
     grilleGénéral.innerHTML = "";
     for(let i = 0; i < listeRestoGrille.length; i++){
       creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
+      callid();
     situation = true;
   }}
 });
@@ -279,10 +286,12 @@ boulangerie.addEventListener("click",()=>{
     for( let i = 0; i < filtreBoulangerie.length; i++){
       creerResto(filtreBoulangerie[i].nom,filtreBoulangerie[i].image,filtreBoulangerie[i].description,filtreBoulangerie[i].prix,filtreBoulangerie[i].distance,filtreBoulangerie[i].lien_page,filtreBoulangerie[i].index);
       situation = false;
+      callid();
   }} else {
     grilleGénéral.innerHTML = "";
     for(let i = 0; i < listeRestoGrille.length; i++){
       creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
+      callid();
     situation = true;
   }}});
 
@@ -294,11 +303,13 @@ asiatique.addEventListener("click",()=>{
     grilleGénéral.innerHTML = ""
     for( let i = 0; i < listeRestoGrille.length; i++){
       creerResto(filtreAsiatique[i].nom,filtreAsiatique[i].image,filtreAsiatique[i].description,filtreAsiatique[i].prix,filtreAsiatique[i].distance,filtreAsiatique[i].lien_page,filtreAsiatique[i].index);
+      callid();
     situation = false;
   }} else {
     grilleGénéral.innerHTML = "";
     for(let i = 0; i < listeRestoGrille.length; i++){
       creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
+      callid();
     situation = true;
 }}});
 
@@ -310,11 +321,13 @@ burger.addEventListener("click",()=>{
     grilleGénéral.innerHTML = ""
   for( let i = 0; i < listeRestoGrille.length; i++){
     creerResto(filtreBurger[i].nom,filtreBurger[i].image,filtreBurger[i].description,filtreBurger[i].prix,filtreBurger[i].distance,filtreBurger[i].lien_page,filtreBurger[i].index);
+    callid();
     situation = false;
   }} else {
     grilleGénéral.innerHTML = "";
     for(let i = 0; i < listeRestoGrille.length; i++){
       creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
+      callid();
     situation = true;
 }}});
 
@@ -327,11 +340,13 @@ snack.addEventListener("click",()=>{
     grilleGénéral.innerHTML = ""
     for( let i = 0; i < listeRestoGrille.length; i++){
       creerResto(filtreSnack[i].nom,filtreSnack[i].image,filtreSnack[i].description,filtreSnack[i].prix,filtreSnack[i].distance,filtreSnack[i].lien_page,filtreSnack[i].index);
+      callid();
       situation = false;
     }} else {
       grilleGénéral.innerHTML = "";
       for(let i = 0; i < listeRestoGrille.length; i++){
         creerResto(listeRestoGrille[i].nom,listeRestoGrille[i].image,listeRestoGrille[i].description,listeRestoGrille[i].prix,listeRestoGrille[i].distance,listeRestoGrille[i].lien_page,listeRestoGrille[i].index);
+        callid();
       situation = true;
 }}});
 
