@@ -31,7 +31,7 @@ const listeRestoGrille = [
       "descriptionBasque": "Jatetxe bikaina, harrera oso beroa, menu anitza, sukaldaritza oso ona, zaporeentzako gozamena, eskerrik asko",
       "prix": "€€",
       "distance": 8,
-      "type_nouriture": "Traditionnel",
+      "type_nouriture": "Traditionnel", 
       "lien_page": "https://www.facebook.com/CassDuSiecleAnglet",
       "photoAssiette1": "https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/316283890_546492424154688_5347097983910201712_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=tVD8MBlxzr4AX9hlMsr&_nc_ht=scontent-cdg2-1.xx&oh=00_AfBDqlZvcTQMy7EHae0bO5p6G7bbUoof1k1Shs1hj-MS9Q&oe=641736C9",
       "photoAssiette2": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/308786609_496374632499801_4199631945948914933_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=U86C_1F1UFAAX9-pgrB&_nc_ht=scontent-cdg4-1.xx&oh=00_AfCSb5Zu7maPqi6IYDaohyIvi8YELc3iWzEI23dl-aG_fw&oe=64176555",
@@ -59,7 +59,7 @@ const listeRestoGrille = [
       "descriptionBasque": "Erakusleiho bikaina, jateko leku handia. Jakina izatea besterik ez du eskatzen. Etxeko opilak dudarik gabe. Ogi bikaina (irin ekologikoa). Abegitsua eta beroa.",
       "prix": "€",
       "distance": 38,
-      "type_nouriture": "Boulangeriehttps://www.google.com/maps/place/Boulangerie+T'M+le+Pain/@43.4575988,-1.5120359,15z/data=!4m14!1m7!3m6!1s0xd513f7b5f95ca81:0xadc8b478e7516449!2sBoulangerie+T'M+le+Pain!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16!3m5!1s0xd513f7b5f95ca81:0xadc8b478e7516449!8m2!3d43.4575988!4d-1.5032812!16s%2Fg%2F11tnw9kc16",
+      "type_nouriture": "Boulangerie",
       "lien_page": "blabla",
       "photoAssiette1": "https://lh3.googleusercontent.com/p/AF1QipMNbiG7MO0NBe7jZQnxSK825mj88Ow_YPhg1hDk=s1360-w1360-h1020",
       "photoAssiette2": "https://lh5.googleusercontent.com/p/AF1QipMgzcFtWnjaKu9dCa8ofvhDCVUKbpCeClvaDWj-=w141-h101-n-k-no-nu",
@@ -227,6 +227,59 @@ for( let i = 0; i < listeRestoGrille.length; i++){
 }
 
 
+// fonction filtre associé bouton
+
+// bouton traditionnel
+let filtreTraditionnel=  listeRestoGrille.filter(element => element.type_nouriture ==="Traditionnel");
+const traditionel = document.querySelector(".buton.Rond.traditionel")
+traditionel.addEventListener("click",()=>{
+  grilleGénéral.innerHTML = ""
+  for( let i = 0; i < listeRestoGrille.length; i++){
+    creerResto(filtreTraditionnel[i].nom, filtreTraditionnel[i].image, filtreTraditionnel[i].description,filtreTraditionnel[i].prix,filtreTraditionnel[i].distance,filtreTraditionnel[i].lien_page);
+  }
+});
+
+// bouton boulangerie
+let filtreBoulangerie=  listeRestoGrille.filter(element => element.type_nouriture ==="Boulangerie");
+const boulangerie = document.querySelector(".buton.Rond.boulangerie");
+boulangerie.addEventListener("click",()=>{
+  grilleGénéral.innerHTML = ""
+  for( let i = 0; i < listeRestoGrille.length; i++){
+    creerResto(filtreBoulangerie[i].nom, filtreBoulangerie[i].image, filtreBoulangerie[i].description,filtreBoulangerie[i].prix,filtreBoulangerie[i].distance,filtreBoulangerie[i].lien_page);
+  }
+});
+
+// bouton asiatique
+let filtreAsiatique=  listeRestoGrille.filter(element => element.type_nouriture ==="Asiatique");
+const asiatique = document.querySelector(".buton.Demirond.asiatique");
+asiatique.addEventListener("click",()=>{
+  grilleGénéral.innerHTML = ""
+  for( let i = 0; i < listeRestoGrille.length; i++){
+    creerResto(filtreAsiatique[i].nom, filtreAsiatique[i].image, filtreAsiatique[i].description,filtreAsiatique[i].prix,filtreAsiatique[i].distance,filtreAsiatique[i].lien_page);
+  }
+});
+
+// bouton burger
+let filtreBurger=  listeRestoGrille.filter(element => element.type_nouriture ==="Burger");
+const burger = document.querySelector(".buton.Rond.burger");
+burger.addEventListener("click",()=>{
+  grilleGénéral.innerHTML = ""
+  for( let i = 0; i < listeRestoGrille.length; i++){
+    creerResto(filtreBurger[i].nom, filtreBurger[i].image, filtreBurger[i].description,filtreBurger[i].prix,filtreBurger[i].distance,filtreBurger[i].lien_page);
+  }
+});
+
+// bouton snack
+let filtreSnack=  listeRestoGrille.filter(element => element.type_nouriture ==="Snack");
+const snack = document.querySelector(".buton.Demirond.snack");
+snack.addEventListener("click",()=>{
+  grilleGénéral.innerHTML = ""
+  for( let i = 0; i < listeRestoGrille.length; i++){
+    creerResto(filtreSnack[i].nom, filtreSnack[i].image, filtreSnack[i].description,filtreSnack[i].prix,filtreSnack[i].distance,filtreSnack[i].lien_page);
+  }
+});
+
+
 // Nav barre JO
 let Barre_nav = document.querySelector(".Barre_nav");
 let lastScrollValue = 0;
@@ -258,60 +311,6 @@ items.forEach(item => {
 
 //---------------------------------------
 
-// quand pn clique sur listeRestoGrille[i] on ouvre page-resto avec données listeRestoGrille[i]
-
-const listeResto=document.querySelector(".grilleResto")
-
-listeRestoGrille.addEventListener('click',()=>{
-  function openNewPage() {
-    window.open("Desktop\projet groupe\Projet-1-The-Wild-Eats\indexresto1.html");
-}})
 
 
-//Carousel---lunch box
-
-// // Sélectionnez les éléments à faire défiler
-// const boxes = document.querySelectorAll('.box');
-
-// // Initialisez la position actuelle du carousel
-// let currentPosition = 0;
-
-// // Sélectionnez les boutons de navigation du carousel
-// const prevButton = document.querySelector('.prev');
-// const nextButton = document.querySelector('.next');
-
-// // Ajoutez des écouteurs d'événements aux boutons de navigation
-// prevButton.addEventListener('click', () => {
-//   currentPosition--;
-//   updateCarousel();
-// });
-
-// nextButton.addEventListener('click', () => {
-//   currentPosition++;
-//   updateCarousel();
-// });
-
-// // Mettez à jour la classe CSS des éléments du carousel en fonction de leur position
-// function updateCarousel() {
-//   // Réinitialisez la position du carousel si elle dépasse la limite
-//   if (currentPosition < 0) {
-//     currentPosition = boxes.length - 1;
-//   } else if (currentPosition >= boxes.length) {
-//     currentPosition = 0;
-//   }
-
-//   // Mettez à jour la classe CSS des éléments du carousel
-//   boxes.forEach((box, index) => {
-//     if (index === currentPosition) {
-//       box.classList.add('current');
-//       box.classList.remove('hidden');
-//     } else {
-//       box.classList.remove('current');
-//       box.classList.add('hidden');
-//     }
-//   });
-// }
-
-// // Mettez à jour le carousel initial
-// updateCarousel();
 

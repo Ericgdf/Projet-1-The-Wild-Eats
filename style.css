@@ -16,7 +16,6 @@
 }
 
 
-
 body {
     background-color: #EDF0EB;
     ;
@@ -40,61 +39,184 @@ body {
 
 .Logo>img {
     height: 150px;
-    width : 150px
+    width: 150px
 }
-
 
 .slogan {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
+
 }
+
+/* effet flip image */
+
+.imageLogo {
+    height: 130px;
+    width: 130px;
+    overflow: hidden;
+}
+
+
+.logo1 {
+    background-image: url("https://media2.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+}
+
+.logo2 {
+    background-image: url("https://media0.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=6c09b952sote28014w2e3qb0l1vshudvdcsd9yn46r170jks&rid=giphy.gif&ct=s");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-bottom: 70px
+}
+
+.logo3 {
+    background-image: url("https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-bottom: 70px
+}
+
+.logo4 {
+    background-image: url("https://i0.wp.com/www.wushujia.fr/wp-content/uploads/2016/03/js-logo.png?ssl=1");
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    animation-name: transition;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes transition {
+    0% {
+        margin-top: -900px;
+    }
+
+    7% {
+        margin-top: -800px;
+    }
+
+    29% {
+        margin-top: -800px;
+    }
+
+    34% {
+        margin-top: -660px;
+    }
+
+    58% {
+        margin-top: -660px;
+    }
+
+    63% {
+        margin-top: -600px;
+    }
+
+    88% {
+        margin-top: -600px;
+    }
+
+    94% {
+        margin-top: -500px;
+    }
+
+    99.99% {
+        margin-top: -4px;
+    }
+
+    100% {
+        margin-top: -900px;
+    }
+}
+
 
 /*effet flip */
 
-.full_slogan{
+.full_slogan {
     margin-top: 30px;
     font-family: var(--titlefont);
     display: flex;
     font-size: 30px;
-    
+
 }
 
-.flip{
+.flip {
     height: 40px;
     font-size: 30px;
     overflow: hidden;
 }
-.start{
+
+.start {
     margin-right: 5px;
 }
 
-.element{
-    margin-bottom:20px;
-    color:black;
-    padding:4px;
-    
+.element {
+    margin-bottom: 20px;
+    color: black;
+    padding: 4px;
+
 }
 
 
 
 .flip div:first-child {
     animation: show 10s linear infinite;
-  }
+}
 
 @keyframes show {
-    0% {margin-top:-280px;}
-    7% {margin-top:-212px;}
-    29% {margin-top:-212px;}
-    34% {margin-top:-140px;}
-    58% {margin-top:-140px;}
-    63% {margin-top:-72px;}
-    88% {margin-top:-72px;}
-    94% {margin-top:-4px;}
-    99.99% {margin-top:-4px;} 
-    100% {margin-top:-280px;} 
-  }
+    0% {
+        margin-top: -280px;
+    }
+
+    7% {
+        margin-top: -212px;
+    }
+
+    29% {
+        margin-top: -212px;
+    }
+
+    34% {
+        margin-top: -140px;
+    }
+
+    58% {
+        margin-top: -140px;
+    }
+
+    63% {
+        margin-top: -72px;
+    }
+
+    88% {
+        margin-top: -72px;
+    }
+
+    94% {
+        margin-top: -4px;
+    }
+
+    99.99% {
+        margin-top: -4px;
+    }
+
+    100% {
+        margin-top: -280px;
+    }
+}
 
 
 
@@ -181,7 +303,7 @@ body {
 /*-- Barre de filtre Audrey -*/
 
 /* base la liste*/
-nav> .carousel{
+nav>.carousel {
     padding: 10px;
     margin: 10px 20px 0 20px;
     display: flex;
@@ -189,10 +311,15 @@ nav> .carousel{
     justify-content: space-around;
 }
 
+
 button{
     padding: 7px;
     cursor: pointer;
     justify-content: space-around;
+
+button {
+    padding: 7px;
+    ;
 }
 
 /* les elements filtres*/
@@ -203,12 +330,12 @@ button{
     font-family: var(--textfont);
     font-size: 0.938em;
     color: black;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border: solid 1px;
     border-radius: 0px 50px 50px 0px;
 }
 
-.Rond  {
+.Rond {
     text-align: center;
     justify-content: center;
     width: 100px;
@@ -219,16 +346,19 @@ button{
     border: solid 1px;
     border-radius: 50px;
 }
+
 /* les elements filtres au survol*/
-.Demirond:focus{
+.Demirond:focus {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
 }
-.Rond:focus{
+
+.Rond:focus {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
+
 }
 
 .Demirond:visited{
@@ -244,10 +374,27 @@ button{
 
 
  @media screen and (max-width: 768px) {
+=======
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    /* .filtre-audrey>ul{ 
+        
+        flex-wrap: wrap; 
+        gap: 3%;
+     */
+
     .carousel {
         display: flex;
         list-style: none;
-        overflow-x: auto; /* barre scroll*/
+        overflow-x: auto;
+        /* barre scroll*/
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -259,7 +406,10 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+
         /* padding: 3px;  */
+
+
     }
     .carousel::-webkit-scrollbar{
         scrollbar-color:  rgb(147, 180, 170) ;
@@ -272,6 +422,45 @@ button{
     .carousel::-webkit-scrollbar-thumb{
         background-color: rgb(127, 148, 139); 
     } } 
+
+
+
+
+
+
+}
+
+
+
+.carousel li:last-of-type {
+    margin-right: 0;
+    /* scrollbar-width: none; */
+    /* scrollbar-color: rebeccapurple green; */
+}
+
+
+.carousel::-webkit-scrollbar {
+    scrollbar-color: grey white;
+}
+
+.carousel::-webkit-scrollbar {
+    scrollbar-color: grey white;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background-color: #f6e299;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: blue;
+    /* color of the scroll thumb */
+    /* border-radius: 100px; roundness of the scroll thumb */
+    border: 3px solid orange;
+
+
+}
 
 
 
@@ -304,13 +493,13 @@ button{
 
 }
 
-.box{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  padding: 15px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 
 
 }
@@ -338,7 +527,7 @@ button{
 }
 
 .imageLunch.Box3 {
-    background-image: url("Photos/lunchbos3.png"); 
+    background-image: url("Photos/lunchbos3.png");
 }
 
 .recette {
@@ -349,7 +538,8 @@ button{
     display: flex;
     align-items: baseline;
 }
-.recette.Marg{
+
+.recette.Marg {
     margin-top: 15px;
 }
 
@@ -360,7 +550,8 @@ button{
 
 
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .container {
         padding: 2rem;
         background-color: #f6e299;
