@@ -326,7 +326,7 @@ document.addEventListener('scroll',() => {
 })
 
 
-// Code Audrey barre filtre
+// Code Audrey barre filtre et carousel
 const carousel = document.querySelector('.carousel');
 const items = carousel.querySelectorAll('button');
 items.forEach(item => {
