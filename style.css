@@ -94,8 +94,9 @@ body {
 .logo3,
 .logo4 {
     animation-name: transition;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
+
 }
 
 
