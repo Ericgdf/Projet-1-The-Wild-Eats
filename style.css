@@ -34,7 +34,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
     padding: 100px;
 }
 
@@ -56,8 +55,8 @@ body {
     height: 130px;
     width: 130px;
     overflow: hidden;
-
 }
+
 
 .logo1 {
     background-image: url("https://media2.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif");
@@ -71,6 +70,7 @@ body {
     height: 130px;
     width: 130px;
     background-size: cover;
+    margin-bottom: 70px
 }
 
 .logo3 {
@@ -78,6 +78,7 @@ body {
     height: 130px;
     width: 130px;
     background-size: cover;
+    margin-bottom: 70px
 }
 
 .logo4 {
@@ -85,6 +86,60 @@ body {
     height: 130px;
     width: 130px;
     background-size: cover;
+    margin-bottom: 70px;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    animation-name: transition;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes transition {
+    0% {
+        margin-top: -900px;
+    }
+
+    7% {
+        margin-top: -800px;
+    }
+
+    29% {
+        margin-top: -800px;
+    }
+
+    34% {
+        margin-top: -660px;
+    }
+
+    58% {
+        margin-top: -660px;
+    }
+
+    63% {
+        margin-top: -600px;
+    }
+
+    88% {
+        margin-top: -600px;
+    }
+
+    94% {
+        margin-top: -500px;
+    }
+
+    99.99% {
+        margin-top: -4px;
+    }
+
+    100% {
+        margin-top: -900px;
+    }
 }
 
 
@@ -248,7 +303,7 @@ body {
 /*-- Barre de filtre Audrey -*/
 
 /* base la liste*/
-nav> .carousel{
+nav>.carousel {
     padding: 10px;
     margin: 10px 20px 0 20px;
     display: flex;
@@ -256,8 +311,9 @@ nav> .carousel{
     justify-content: space-around;
 }
 
-button{
-    padding: 7px;;
+button {
+    padding: 7px;
+    ;
 }
 
 /* les elements filtres*/
@@ -268,13 +324,13 @@ button{
     font-family: var(--textfont);
     font-size: 0.938em;
     color: black;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border: solid 1px;
     border-radius: 0px 50px 50px 0px;
 
 }
 
-.Rond  {
+.Rond {
     text-align: center;
     justify-content: center;
     width: 100px;
@@ -286,14 +342,16 @@ button{
     border-radius: 50px;
 
 }
+
 /* les elements filtres au survol*/
-.Demirond:focus{
+.Demirond:focus {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
 
 }
-.Rond:focus{
+
+.Rond:focus {
     background-color: black;
     border-radius: 0px 50px 50px 0px;
     color: whitesmoke;
@@ -302,7 +360,7 @@ button{
 
 
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 
 
@@ -329,10 +387,10 @@ button{
         align-items: center;
 
     }
-      
 
 
-    }
+
+}
 
 
 
@@ -343,8 +401,8 @@ button{
 }
 
 
-.carousel::-webkit-scrollbar{
-    scrollbar-color: grey white ;
+.carousel::-webkit-scrollbar {
+    scrollbar-color: grey white;
 }
 
 .carousel::-webkit-scrollbar {
